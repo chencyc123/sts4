@@ -1,4 +1,4 @@
-Welcome to Spring Tools 4 - the next generation of Spring developer tooling for Eclipse, Visual Studio Code, and Atom.
+[[/images/sts4.gif|STS4]] Welcome to Spring Tools 4 - the next generation of Spring developer tooling for Eclipse, Visual Studio Code, and Atom.
 
 * [Installation](https://github.com/spring-projects/sts4/wiki/Installation) - How to get started in Eclipse, Visual Studio Code, and Atom.
 
