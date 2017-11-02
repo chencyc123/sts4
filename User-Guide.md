@@ -14,7 +14,20 @@ Easy navigation to Spring-specific elements of your source code.
 * `@>` shows all functions (prototype implementation)
 * `@` shows all Spring annotations in the code
 
-## Live application overlay
+## Quick-access for running apps
+Easy navigation to the provided request mappings of running apps.
+
+(screenshot)
+
+### Shortcuts
+* Eclipse: Cmd-6 (symbols in file), Cmd-6 again (symbols in workspace)
+* Code: Cmd-Shift-O (symbols in file), Cmd-T (symbols in workspace)
+* Atom: not available yet (symbols in file show up in outline view)
+
+### Examples
+* `//` shows all request mappings of all running Spring Boot apps and opens a browser for the selected endpoint
+
+## Live application information hovers
 Show information from running Spring Boot apps on your machine in the source code. This allows you to run the Spring Boot app locally on your machine and visualizes information from those running apps in your source code.
 
 ### Visualization
