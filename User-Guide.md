@@ -57,7 +57,7 @@ Write Spring code with templates, available via regular code completion.
 * `@PutMapping`
 * `@RequestMapping`
 
-## Enhanced code completions
+## Smart code completions
 Additional code completions for Spring-specific annotations
 
 (screenshot)
