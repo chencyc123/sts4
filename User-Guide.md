@@ -3,6 +3,8 @@
 ## Go to symbol in file/workspace
 Easy navigation to Spring-specific elements of your source code.
 
+(screenshot)
+
 ### Shortcuts
 * Eclipse: Cmd-6 (symbols in file), Cmd-6 again (symbols in workspace)
 * Code: Cmd-Shift-O (symbols in file), Cmd-T (symbols in workspace)
@@ -16,6 +18,8 @@ Easy navigation to Spring-specific elements of your source code.
 
 ## Enhanced code completions
 Additional code completions for Spring-specific annotations
+
+(screenshot)
 
 ### Examples
 * `@Value`: code completion for Spring Boot property keys
@@ -38,8 +42,19 @@ Once the tooling detects a running Spring Boot app on your local machine, it aut
 
 If there are multiple instances of the app running on your machine, the live data from all those instances will show up in the hover information.
 
+(screenshot)
+
 ### Examples
 * `@Profile`: shows information about the active profiles on the running apps
 * `@Component`, `@Bean`, `@Autowired`: shows detailed information about the beans and their wiring from the live app
-* `@ContidionalOn`: shows information about the conditions and their evaluation at runtime
+* `@ContidionalOn...`: shows information about the conditions and their evaluation at runtime
 
+## Boot dashboard
+Well known from previous generations of the Spring Tool Suite, the Spring Tool Suite 4 also contains the boot dashboard for quickly running, re-starting, tagging, and inspecting Spring Boot projects in your workspace.
+
+(screenshot)
+
+Please note, that this is available for Eclipse only, not yet for Visual Studio Code or Atom.
+
+## Additional enhanced editing support
+In addition to pure Spring Boot app code, the tools also come with enhanced editing support for Cloud Foundry Manifest files, Concourse CI pipeline definitions, and BOSH deployment manifests.
