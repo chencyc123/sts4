@@ -29,6 +29,12 @@ If there are multiple instances of the app running on your machine, the live dat
 * `@Component`, `@Bean`, `@Autowired`: shows detailed information about the beans and their wiring from the live app
 * `@ContidionalOn...`: shows information about the conditions and their evaluation at runtime
 
+### Configuration
+You can enable/disable this feature:
+* Eclipse/Spring Tool Suite 4: via the preferences `Spring -> Spring Boot Language Server`
+* Code: regular JSON preference mechanism using the key: `boot-java.boot-hints.on`.
+* Atom: regular preference mechanism
+
 ## Code templates
 Write Spring code with templates, available via regular code completion.
 
@@ -55,4 +61,7 @@ Well known from previous generations of the Spring Tool Suite, the Spring Tool S
 Please note, that this is available for Eclipse only, not yet for Visual Studio Code or Atom.
 
 ## Additional enhanced editing support
-In addition to pure Spring Boot app code, the tools also come with enhanced editing support for Cloud Foundry Manifest files, Concourse CI pipeline definitions, and BOSH deployment manifests.
+In addition to pure Spring Boot app code, the tools also come with enhanced editing support for:
+* Cloud Foundry Manifest files
+* Concourse CI pipeline definitions
+* BOSH deployment manifests
