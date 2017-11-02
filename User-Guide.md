@@ -1,6 +1,4 @@
-# Navigating the source code
-
-## Go to symbol in file/workspace
+## Navigating the source code - Go to symbol in file/workspace
 Easy navigation to Spring-specific elements of your source code.
 
 (screenshot)
@@ -16,24 +14,6 @@ Easy navigation to Spring-specific elements of your source code.
 * `@>` shows all functions (prototype implementation)
 * `@` shows all Spring annotations in the code
 
-## Enhanced code completions
-Additional code completions for Spring-specific annotations
-
-(screenshot)
-
-### Examples
-* `@Value`: code completion for Spring Boot property keys
-* `@Scope`: code completion for standard scope names
-
-## Code templates
-Write Spring code with templates, available via regular code completion.
-
-### Examples
-* `@GetMapping`
-* `@PostMapping`
-* `@PutMapping`
-* `@RequestMapping`
-
 ## Live application overlay
 Show information from running Spring Boot apps on your machine in the source code. This allows you to run the Spring Boot app locally on your machine and visualizes information from those running apps in your source code.
 
@@ -48,6 +28,24 @@ If there are multiple instances of the app running on your machine, the live dat
 * `@Profile`: shows information about the active profiles on the running apps
 * `@Component`, `@Bean`, `@Autowired`: shows detailed information about the beans and their wiring from the live app
 * `@ContidionalOn...`: shows information about the conditions and their evaluation at runtime
+
+## Code templates
+Write Spring code with templates, available via regular code completion.
+
+### Examples
+* `@GetMapping`
+* `@PostMapping`
+* `@PutMapping`
+* `@RequestMapping`
+
+## Enhanced code completions
+Additional code completions for Spring-specific annotations
+
+(screenshot)
+
+### Examples
+* `@Value`: code completion for Spring Boot property keys
+* `@Scope`: code completion for standard scope names
 
 ## Boot dashboard
 Well known from previous generations of the Spring Tool Suite, the Spring Tool Suite 4 also contains the boot dashboard for quickly running, re-starting, tagging, and inspecting Spring Boot projects in your workspace.
