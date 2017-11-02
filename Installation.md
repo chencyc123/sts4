@@ -8,7 +8,7 @@ Install everything or selected features into an existing Eclipse installation:
 ## Visual Studio Code
 
 Install from the Visual Studio Marketplace:
-* [Java Extension Pack] (https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-* [Spring Tools 4] (https://marketplace.visualstudio.com/items?itemName=notthereyet)
+* [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+* [Spring Tools 4](https://marketplace.visualstudio.com/items?itemName=notthereyet)
 
 ## Atom
