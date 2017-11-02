@@ -1,7 +1,3 @@
-The next generation of Spring development tools for Eclipse, Visual Studio Code, and Atom.
-
-# Installation
-
 ## Eclipse
 
 [Download the Spring Tool Suite 4 distribution](http://dist.springsource.com/snapshot/STS4/nightly-distributions.html) that has everything pre-installed.
