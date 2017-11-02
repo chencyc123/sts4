@@ -2,5 +2,5 @@ Welcome to Spring Tools 4 - the next generation of Spring developer tooling for 
 
 * [Installation](https://github.com/spring-projects/sts4/wiki/Installation)
 
-* User Guide
-  * 
+* [User Guide](https://github.com/spring-projects/sts4/wiki/User-Guide)
+
