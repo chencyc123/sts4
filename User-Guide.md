@@ -35,7 +35,7 @@ Once the tooling detects a running Spring Boot app on your local machine, it aut
 
 If there are multiple instances of the app running on your machine, the live data from all those instances will show up in the hover information.
 
-[[/images/screenshot-live-hover.png|live data from running apps as hover on source code]]
+[[/images/screenshot-live-hovers.png|live data from running apps as hover on source code]]
 
 ### Examples
 * `@Profile`: shows information about the active profiles on the running apps
