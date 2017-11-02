@@ -4,3 +4,7 @@ Welcome to Spring Tools 4 - the next generation of Spring developer tooling for 
 
 * [User Guide](https://github.com/spring-projects/sts4/wiki/User-Guide)
 
+* [Known Limitations](https://github.com/spring-projects/sts4/wiki/Known-Limitations)
+
+* [How to report issues]()
+
