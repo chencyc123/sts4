@@ -1,7 +1,7 @@
 ## Navigating the source code - Go to symbol in file/workspace
 Easy navigation to Spring-specific elements of your source code.
 
-(screenshot)
+[[/images/screenshot-navigation.png|Go to Symbol in workspace]]
 
 ### Shortcuts
 * Eclipse: Cmd-6 (symbols in file), Cmd-6 again (symbols in workspace)
@@ -35,7 +35,7 @@ Once the tooling detects a running Spring Boot app on your local machine, it aut
 
 If there are multiple instances of the app running on your machine, the live data from all those instances will show up in the hover information.
 
-(screenshot)
+[[/images/screenshot-live-hover.png|live data from running apps as hover on source code]]
 
 ### Examples
 * `@Profile`: shows information about the active profiles on the running apps
@@ -60,7 +60,7 @@ Write Spring code with templates, available via regular code completion.
 ## Smart code completions
 Additional code completions for Spring-specific annotations
 
-(screenshot)
+[[/images/screenshot-code-completion.png|Smart code completion for boot properties]]
 
 ### Examples
 * `@Value`: code completion for Spring Boot property keys
