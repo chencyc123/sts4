@@ -1,3 +1,7 @@
+## Pre-beta interna release
+
+This guides you through the various installation steps for the STS4 components for the internal pre-beta release. Therefore the following links point to internal CI builds, not finally released artifacts.
+
 ## Eclipse
 
 * [Download the Spring Tool Suite 4 distribution](http://dist.springsource.com/snapshot/STS4/nightly-distributions.html), has has everything pre-installed.
@@ -8,10 +12,12 @@
 
 Install from the Visual Studio Marketplace:
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-* [Spring Tools 4](https://marketplace.visualstudio.com/items?itemName=notthereyet)
+
+Download the VSIX package (and install it into VSCode) from here:
+* Spring Boot Java Language Server: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
 
 ## Atom
 
 Install from the Atom packages:
 * [Java IDE extension](https://atom.io/packages/ide-java)
-* [Spring Tools 4](https://atom.io/packages/notthereyet)
+* instructions for Atom install...
