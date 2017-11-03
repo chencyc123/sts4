@@ -4,9 +4,11 @@ This guides you through the various installation steps for the STS4 components f
 
 ## Eclipse
 
-* [Download the Spring Tool Suite 4 distribution](http://dist.springsource.com/snapshot/STS4/nightly-distributions.html), has has everything pre-installed.
-* Install into an existing Eclipse installation using:
-  * Eclipse Oxygen (4.7): http://dist.springsource.com/snapshot/TOOLS/sts4/nightly/e4.7
+* [Download the Spring Tool Suite 4 distribution](http://dist.springsource.com/snapshot/STS4/nightly-distributions.html), that has everything pre-installed.
+* Or install into an existing Eclipse installation using:
+  * for Eclipse Oxygen.1a: http://dist.springsource.com/snapshot/TOOLS/sts4/nightly/e4.7 (`Install New Software`, then enter this URL, and select the appropriate features)
+
+**We don't recommend to install STS4 into an existing STS 3.9.x installation!!!**
 
 ## Visual Studio Code
 
