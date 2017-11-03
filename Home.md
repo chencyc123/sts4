@@ -1,4 +1,4 @@
-[[/images/sts4.gif|STS4]] **Welcome to Spring Tools 4**
+[[/images/sts4-big.gif|STS4]] **Welcome to Spring Tools 4**
 
 the next generation of Spring developer tooling for Eclipse, Visual Studio Code, and Atom.
 
