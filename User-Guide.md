@@ -17,7 +17,7 @@ Easy navigation to Spring-specific elements of your source code.
 ## Quick-access for running apps
 Easy navigation to the provided request mappings of running apps.
 
-(screenshot)
+[[/images/screenshot-live-apps-quick-access.png|accessing running apps quickly]]
 
 ### Shortcuts
 * Eclipse: Cmd-6 (symbols in file), Cmd-6 again (symbols in workspace)
