@@ -1,4 +1,4 @@
-## Pre-beta interna release
+## Pre-beta internal release
 
 This guides you through the various installation steps for the STS4 components for the internal pre-beta release. Therefore the following links point to internal CI builds, not finally released artifacts.
 
