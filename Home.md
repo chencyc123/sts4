@@ -8,5 +8,5 @@ the next generation of Spring developer tooling for Eclipse, Visual Studio Code,
 
 * [Known Limitations](https://github.com/spring-projects/sts4/wiki/Known-Limitations)
 
-* [How to report issues]()
+* Use [GitHub issues](https://github.com/spring-projects/sts4/issues) for filing bugs and enhancement requests.
 
