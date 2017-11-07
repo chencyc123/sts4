@@ -20,6 +20,12 @@ Download the VSIX package (and install it into VSCode) from here:
 
 ## Atom
 
-Install from the Atom packages:
-* [Java IDE extension](https://atom.io/packages/ide-java)
-* instructions for Atom install...
+Download and Install Atom 1.21 or 1.22.beta.2
+* [Atom](http://atom.io)
+
+Download and Install Atom package from here:
+* Page listing all packages: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
+* Unpack the Atom package
+* Atom package is similar to NPM package and has `package.json` file in it. Run `apm link .` CLI command from the Atom package folder (or `apm-beta link .` for Atom beta version)
+* Either open Atom or execute `Reload Window` command if it's opened (`Packages -> Command Palette -> Toggle`)
+* Verify that package is installed in `Atom -> Preferences` `Packages` tab, i.e. listed in the list of installed packages
