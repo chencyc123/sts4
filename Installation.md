@@ -15,8 +15,12 @@ This guides you through the various installation steps for the STS4 components f
 Install from the Visual Studio Marketplace:
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
-Download the VSIX package (and install it into VSCode) from here:
-* Spring Boot Java Language Server: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
+* Download the VSIX package from here:
+  * Spring Boot Java Language Server: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
+* Select `Command Palette...` from the `View` (or Press Cmd-Shift-P)
+* Search for `Install from VSIX` and execute that
+* Select the downloaded `vscode-boot-java...vsix` file
+* Re-open the VSCode window after successful install
 
 ## Atom
 
