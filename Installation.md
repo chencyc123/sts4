@@ -15,8 +15,14 @@ This guides you through the various installation steps for the STS4 components f
 Install from the Visual Studio Marketplace:
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
-* Download the VSIX package from here:
-  * Spring Boot Java Language Server: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
+* Download the VSIX package from here: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
+  * **Spring Boot Java Language Server**: Provides support for working with java-based Spring Boot applications
+
+  * Additional extensions for Visual Studio Code:
+    * Spring Boot Property Language Server: Provides support for editing Spring Boot property and yml files
+    * Cloud Foundry Manifest Language Server: basic editing support for Cloud Foundry manifest files (manifest.yml)
+    * Concourse CI Language Server: basic editing support for pipeline and task definitions for the Concourse CI system
+    * Bosh Language Server: basic editing support for BOSH deployment manifest files
 * Select `Command Palette...` from the `View` (or Press Cmd-Shift-P)
 * Search for `Install from VSIX` and execute that
 * Select the downloaded `vscode-boot-java...vsix` file
