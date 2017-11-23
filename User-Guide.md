@@ -82,6 +82,4 @@ In addition to pure Spring Boot app code, the tools also come with enhanced edit
 ## Additional notes about background processes
 The Spring Tools 4 run as extensions for VSCode, Atom, and Eclipse as so called "language-servers" in their own processes. Those processes are created as soon as the client (the editor or IDE) detects a situation where the extension can be useful and kicks-off that additional process. This has a number of benefits (a crashing extension can't crash the editor or the IDE).
 
-The total number of processes that are being created depends on the client. VSCode usually starts just one language server process per workspace window for each language server type. The Eclipse integration behaves differently and starts a language server process per (open and used) project in your workspace. That can result in many language-server processes running on your machine. This will change in the future (as soon as the Eclipse integration starts to support so called multi-root workspaces). But we wanted to make you aware of this behavior.
-
-In the case of the Spring Boot language server those processes are regular JVM instances.
+The total number of processes that are being created depends on the client. VSCode usually starts just one language server process per workspace window for each language server type. The Eclipse integration behaves in a similar way. The processes can be found via `jps`, since they are all JVM processes, usually called `JarLauncher` (since we deploy and start them as Spring Boot Fat-JAR libs).
