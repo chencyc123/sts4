@@ -35,9 +35,11 @@ Download and Install Atom 1.21 or 1.22.beta.2
 
 Atom packages can be installed through `Atom > Preferences > Settings > Install`. You should install
 - ide-java 
+- question for alex - any others? do you get that pre-req ide support one automatically now?
 
 Then from the Spring Team:
 - boot-java
+- question for alex - what about the properties one?
 
 Optionally:
 - bosh-yaml
