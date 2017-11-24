@@ -33,13 +33,15 @@ Install from the Visual Studio Marketplace:
 Download and Install Atom 1.21 or 1.22.beta.2
 * [Atom](http://atom.io)
 
-Atom packages can be installed through `Atom > Preferences > Settings > Install`. You should install
+Atom packages can be installed through `Atom -> Preferences` - on `Settings` window, select `Install`.
+
+You should install
 - ide-java 
-- question for alex - any others? do you get that pre-req ide support one automatically now?
+- Think Alex has made this one a pre-req for boot-java so you don't need to remember to do it yourself - can someone test/confirm that?
 
 Then from the Spring Team:
 - boot-java
-- question for alex - what about the properties one?
+- boot-properties
 
 Optionally:
 - bosh-yaml
@@ -48,7 +50,7 @@ Optionally:
 
 It is possible to install dev builds of these packages as follows:
 * Grab the latest Atom packages from here: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
-* Unpack each Atom package (question for alex - all into different places?? Surely yes or they overwrite each others package folder?)
-* An Atom package is similar to NPM package and has `package.json` file in it. Run `apm link .` CLI command from the Atom package folder (or `apm-beta link .` for Atom beta version)
+* Unpack each Atom package into a different folder
+* An Atom package is similar to NPM package and has `package.json` file in it. Run `apm link .` CLI command from each Atom package folder (or `apm-beta link .` for Atom beta version)
 * Either open Atom or execute `Reload Window` command if it's opened (`Packages -> Command Palette -> Toggle`)
 * Verify that package is installed in `Atom -> Preferences` `Packages` tab, i.e. listed in the list of installed packages
