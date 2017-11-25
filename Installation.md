@@ -35,10 +35,6 @@ Download and Install Atom 1.21 or 1.22.beta.2
 
 Atom packages can be installed through `Atom -> Preferences` - on `Settings` window, select `Install`.
 
-You should install
-- ide-java 
-- Think Alex has made this one a pre-req for boot-java so you don't need to remember to do it yourself - can someone test/confirm that?
-
 Then from the Spring Team:
 - boot-java
 - boot-properties
