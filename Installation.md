@@ -33,7 +33,7 @@ Install from the Visual Studio Marketplace:
 Download and Install Atom 1.21 or 1.22.beta.2
 * [Atom](http://atom.io)
 
-Atom packages can be installed through `Atom -> Preferences` - on `Settings` window, select `Install`.
+Atom packages can be installed through `Atom -> Preferences` - on `Settings` window, select `Install`. Atom packages may prompt you to install missing prerequisite Atom packages (i.e. `ide-ui` and/or `ide-java`). It's recommended that you chose to install them.
 
 Install the following from the Spring Team ([spring-projects](https://github.com/spring-projects)):
 - **boot-java**
