@@ -35,14 +35,14 @@ Download and Install Atom 1.21 or 1.22.beta.2
 
 Atom packages can be installed through `Atom -> Preferences` - on `Settings` window, select `Install`.
 
-Then from the Spring Team:
-- boot-java
-- boot-properties
+Install the following from the Spring Team ([spring-projects](https://github.com/spring-projects)):
+- **boot-java**
+- **boot-properties**
 
-Optionally:
-- bosh-yaml
-- concourse-pipeline-yaml
-- cf-manifest-yaml
+Optionally :
+- **bosh-yaml**
+- **concourse-pipeline-yaml**
+- **cf-manifest-yaml**
 
 It is possible to install dev builds of these packages as follows:
 * Grab the latest Atom packages from here: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
