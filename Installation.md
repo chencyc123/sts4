@@ -47,6 +47,6 @@ Optionally:
 It is possible to install dev builds of these packages as follows:
 * Grab the latest Atom packages from here: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
 * Unpack each Atom package into a different folder
-* An Atom package is similar to NPM package and has `package.json` file in it. Run `apm link .` CLI command from each Atom package folder (or `apm-beta link .` for Atom beta version)
+* An Atom package is similar to NPM package and has `package.json` file in it. Run `apm link .` CLI command from each Atom package folder - the folder should have `package.json` file in it (or `apm-beta link .` for Atom beta version)
 * Either open Atom or execute `Reload Window` command if it's opened (`Packages -> Command Palette -> Toggle`)
 * Verify that package is installed in `Atom -> Preferences` `Packages` tab, i.e. listed in the list of installed packages
