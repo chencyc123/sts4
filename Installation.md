@@ -1,31 +1,44 @@
-## Pre-beta internal release
+## Public beta release
 
-This guides you through the various installation steps for the STS4 components for the internal pre-beta release. Therefore the following links point to internal CI builds, not finally released artifacts.
+This guides you through the various installation steps for the STS4 components for the public beta release. All the variants require a JDK8 (or JDK9) to be installed on your system as a prerequisite.
 
-## Eclipse
+## Spring Tool Suite 4 (as Eclipse-based distribution)
 
-* [Download the Spring Tool Suite 4 distribution](http://dist.springsource.com/snapshot/STS4/nightly-distributions.html), that has everything pre-installed.
-* Or install into an existing Eclipse installation using:
-  * for Eclipse Oxygen.1a: http://dist.springsource.com/snapshot/TOOLS/sts4/nightly/e4.7 (`Install New Software`, then enter this URL, and select the appropriate features)
+Download the full featured Spring Tool Suite 4 distribution that has everything pre-installed:
+
+* [STS4.0 M6 (Public Beta) for Windows 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M6/dist/e4.7/spring-tool-suite-4-4.0.0.M6-e4.7.1a-win32.win32.x86_64.zip)
+* [STS4.0 M6 (Public Beta) for macOS 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M6/dist/e4.7/spring-tool-suite-4-4.0.0.M6-e4.7.1a-macosx.cocoa.x86_64.dmg)
+* [STS4.0 M6 (Public Beta) for Linux/GTK 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M6/dist/e4.7/spring-tool-suite-4-4.0.0.M6-e4.7.1a-linux.gtk.x86_64.tar.gz)
+
+Alternatively, you can install STS4 components into an existing Eclipse install:
+
+* Choose `Install New Software` in Eclipse and use this p2 repository URL:
+  * http://dist.springsource.com/release/TOOLS/sts4/update/e4.7/
+* Select the main features you wish to install and proceed.
 
 **We don't recommend to install STS4 into an existing STS 3.9.x installation!!!**
 
+It is possible to install dev builds of these packages as from here:
+* http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
+
 ## Visual Studio Code
+
+Download and install Visual Studio Code:
+
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 Install from the Visual Studio Marketplace:
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+* [Spring Boot Java Support](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-java)
+* [Spring Boot Properties Support](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-properties)
+* [Cloud Foundry Manifest Editing Support](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-manifest-yaml)
+* [Concourse CI Pipeline Editing Support](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-concourse)
 
-* Download the VSIX package from here: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
-  * **Spring Boot Java Language Server**: Provides support for working with java-based Spring Boot applications
-
-  * Additional extensions for Visual Studio Code:
-    * Spring Boot Property Language Server: Provides support for editing Spring Boot property and yml files
-    * Cloud Foundry Manifest Language Server: basic editing support for Cloud Foundry manifest files (manifest.yml)
-    * Concourse CI Language Server: basic editing support for pipeline and task definitions for the Concourse CI system
-    * Bosh Language Server: basic editing support for BOSH deployment manifest files
+It is possible to install dev builds of these packages as follows:
+* Grab the latest VSIX packages from here: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
 * Select `Command Palette...` from the `View` (or Press Cmd-Shift-P)
 * Search for `Install from VSIX` and execute that
-* Select the downloaded `vscode-boot-java...vsix` file
+* Select the downloaded VSIX file
 * Re-open the VSCode window after successful install
 
 ## Atom
