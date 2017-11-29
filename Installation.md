@@ -29,10 +29,7 @@ Download and install Visual Studio Code:
 
 Install from the Visual Studio Marketplace:
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-* [Spring Boot Java Support](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-java)
-* [Spring Boot Properties Support](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-properties)
-* [Cloud Foundry Manifest Editing Support](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-manifest-yaml)
-* [Concourse CI Pipeline Editing Support](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-concourse)
+* [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack)
 
 It is possible to install dev builds of these packages as follows:
 * Grab the latest VSIX packages from here: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
