@@ -12,4 +12,4 @@
   * the same applies to the extensions for Visual Studio Code and Atom, so make sure you have your JAVA_HOME point to a JDK instead of a JRE.
 
 * Windows
-  * If "Live Boot Hints" not showing up when they are supposed to check if `<Uset-Temp-Folder>` has file `hsperf-<username>`. If yes, delete this file and restart your boot app and STS4 (Eclipse, VSCode or Atom).
+  * If "Live Boot Hints" not showing up when they are supposed to check if `<User-Temp-Folder>` has file `hsperf-<username>`. If yes, delete this file and restart your boot app and STS4 (Eclipse, VSCode or Atom).
