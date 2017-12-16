@@ -6,9 +6,9 @@ This guides you through the various installation steps for the STS4 components f
 
 Download the full featured Spring Tool Suite 4 distribution that has everything pre-installed:
 
-* [STS4.0 M6 (Public Beta) for Windows 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M6/dist/e4.7/spring-tool-suite-4-4.0.0.M6-e4.7.1a-win32.win32.x86_64.zip)
-* [STS4.0 M6 (Public Beta) for macOS 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M6/dist/e4.7/spring-tool-suite-4-4.0.0.M6-e4.7.1a-macosx.cocoa.x86_64.dmg)
-* [STS4.0 M6 (Public Beta) for Linux/GTK 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M6/dist/e4.7/spring-tool-suite-4-4.0.0.M6-e4.7.1a-linux.gtk.x86_64.tar.gz)
+* [STS4.0 M7 (Public Beta) for Windows 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M7/dist/e4.7/spring-tool-suite-4-4.0.0.M7-e4.7.1a-win32.win32.x86_64.zip)
+* [STS4.0 M7 (Public Beta) for macOS 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M7/dist/e4.7/spring-tool-suite-4-4.0.0.M7-e4.7.1a-macosx.cocoa.x86_64.dmg)
+* [STS4.0 M7 (Public Beta) for Linux/GTK 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M7/dist/e4.7/spring-tool-suite-4-4.0.0.M7-e4.7.1a-linux.gtk.x86_64.tar.gz)
 
 Alternatively, you can install STS4 components into an existing Eclipse install:
 
