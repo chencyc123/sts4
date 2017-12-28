@@ -13,3 +13,8 @@
 
 * Windows
   * If "Live Boot Hints" not showing up when they are supposed to check if `<User-Temp-Folder>` has file `hsperf-<username>`. If yes, delete this file and restart your boot app and STS4 (Eclipse, VSCode or Atom).
+
+* Live Hovers not showing up
+  * make sure the Spring Boot Actuators are on the classpath (add the Maven dependency, if necessary)
+  * make sure you run on a JDK, not a JRE (see above)
+  * there are some network configuration cases that prevent the language server from connecting to the running Spring Boot application via JMX. In that case, add `-Djava.rmi.server.hostname=localhost` to the VM arguments when starting up your Spring Boot app.
