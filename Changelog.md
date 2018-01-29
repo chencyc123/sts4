@@ -16,9 +16,6 @@
 * _(Eclipse Integration)_ fixed an issue with the Spring Starter wizard on Eclipse Photon
 * _(Concourse)_ added support for cache attribute in tasks
 * _(Concourse)_ added missing version attribute in image_resource
-* _(Concourse)_ added support for cache attribute in tasks
-* _(Concourse)_ added support for cache attribute in tasks
-* _(Concourse)_ added support for cache attribute in tasks
 
 ## 2017-12-15
 
