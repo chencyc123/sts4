@@ -1,13 +1,14 @@
-## 2018-01-29
+## 2018-01-30
 
 * _(Spring Boot Java)_ function declarations are now being parsed into symbols for functions that directly inherit from `java.util.Function` ([#18](https://github.com/spring-projects/sts4/issues/18))
 * _(Spring Boot Java)_ updated live hover mechanics to work with latest Spring Boot 2.0 snapshot versions 
+* _(Spring Boot Java)_ improved the way the JDK (to run the language server) is found
 * _(Spring Boot Java)_ improved warning message about missing tools.jar
 * _(Spring Boot Java)_ live hovers now show up on class flies that are displayed as source
+* _(Spring Boot Java)_ fixed a problem with outdated symbols showing up after file deletion/rename
+* _(Spring Boot Java)_ fixed a deadlock issue
 * _(Spring Boot Java)_ reduced number of threads used behind the scenes
 * _(Spring Boot Java)_ reduced number of CPU cycles used by live hover mechanism
-* _(Spring Boot Java)_ fixed a deadlock issue
-* _(Spring Boot Java)_ fixed a problem with outdated symbols showing up after file deletion/rename
 * _(Spring Boot Java, Spring Boot Properties)_ reduced memory footprint
 * _(Spring Boot Properties)_ fixed an issue with wrong indentation after inserting property node
 * _(Eclipse Integration)_ updated distribution to be based on early milestones of Eclipse Photon
