@@ -16,6 +16,7 @@
 
 * Live Hovers not showing up
   * make sure the Spring Boot Actuators are on the classpath (add the Maven dependency, if necessary)
+  * make sure your project is either Boot 1.5.x release or Boot 2.0.SNAPSHOT or RELEASE. Boot 2.0 MILESTONES are explicitly not supported.
   * make sure you run on a JDK, not a JRE (see above)
   * there are some network configuration cases that prevent the language server from connecting to the running Spring Boot application via JMX. In that case, add `-Djava.rmi.server.hostname=localhost` to the VM arguments when starting up your Spring Boot app.
   * On Windows... it is fairly common for the folder at `%TMP%\hsperf-%USERNAM%` to get wrong permissions, especially if you recently installed / reinstalled or updated your JDK. To fix this, simply delete the folder and restart your Boot app and STS 4 (Eclipse, VSCode or Atom). The next java process you start should recreate the folder with correct permissions.
