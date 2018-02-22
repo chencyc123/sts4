@@ -1,6 +1,6 @@
 ## 2018-02-22
 
-*Attention:* We merged the two different extensions for Spring Boot (for Java code and for properties) into a single extension for the various platforms (Eclipse, VSCode, Atom). This might require that you manually uninstall the old extensions and install the new ones. Automatic updates don't work here. For the Eclipse case, you might want to start with a fresh STS4 M9 distribution and go from there to avoid manual uninstall/install steps.
+__Attention:__ We merged the two different extensions for Spring Boot (for Java code and for properties) into a single extension for the various platforms (Eclipse, VSCode, Atom). This might require that you manually uninstall the old extensions and install the new ones. Automatic updates don't work here. For the Eclipse case, you might want to start with a fresh STS4 M9 distribution and go from there to avoid manual uninstall/install steps.
 
 * _(Spring Boot)_ support added for Spring Data repositories, they show up as bean symbols now
 * _(Spring Boot)_ fixed a bug that caused an exception when using content-assist for a non-Spring-Boot java project
