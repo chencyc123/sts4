@@ -1,3 +1,25 @@
+## 2018-02-22
+
+_Attention:_ We merged the two different extensions for Spring Boot (for Java code and for properties) into a single extension for the various platforms (Eclipse, VSCode, Atom). This might require that you manually uninstall the old extensions and install the new ones. Automatic updates don't work here. For the Eclipse case, you might want to start with a fresh STS4 M9 distribution and go from there to avoid manual uninstall/install steps.
+
+* _(Spring Boot)_ support added for Spring Data repositories, they show up as bean symbols now
+* _(Spring Boot)_ fixed a bug that caused an exception when using content-assist for a non-Spring-Boot java project
+* _(Spring Boot, VSCode)_ support for navigation added to live injection reports, they allow you to directly navigate to the source code of the bean type and the resource where the bean got defined. Limitation: this works for VSCode only at the moment, support for Eclipse and Atom still in progress
+* _(Spring Boot, Eclipse integration)_ fixed a bug that caused content-assist to be turned off in the java editor
+
+* _(Concourse)_ Concourse CI Pipeline Editor reports errors on valid `pipeline.yml` fixed (([#41](https://github.com/spring-projects/sts4/issues/41)))
+
+* _(general improvements)_ improved the way the JDK to run the language server is found together with an improved error message if no JDK can be found
+* _(general improvements, Eclipse integration)_ log output from language server processes are now streamed to the Console view, this can be disabled via the `Language Servers STS4` preference page
+* _(general improvements, Eclipse integration)_ individual language servers can now be easily enabled/disabled (via the `Language Servers` preference page
+* _(general improvements, Eclipse integration)_ bug fix to avoid multiple language server processes being started
+* _(general improvements, Eclipse integration)_ bug fix to not block the Java editor from opening while starting up the language server process
+* _(general improvements, Eclipse integration)_ bug fix to prevent exception in the IDE when initial project got deleted
+
+
+
+
+
 ## 2018-01-30
 
 * _(Spring Boot Java)_ function declarations are now being parsed into symbols for functions that directly inherit from `java.util.Function` ([#18](https://github.com/spring-projects/sts4/issues/18))
