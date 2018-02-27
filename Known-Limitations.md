@@ -14,6 +14,9 @@
 * Windows
   * If "Live Boot Hints" not showing up when they are supposed to check if `<User-Temp-Folder>` has file `hsperf-<username>`. If yes, delete this file and restart your boot app and STS4 (Eclipse, VSCode or Atom).
 
+* Lombok
+  * The Lombok installer doesn't know about the changed name of the STS4 executable and therefore doesn't find it. Nevertheless you can install Lombok manually by modifying the SpringTools4.ini file yourself.
+
 * Live Hovers not showing up
   * make sure the Spring Boot Actuators are on the classpath (add the Maven dependency, if necessary)
   * make sure your project is either Boot 1.5.x release or Boot 2.0.SNAPSHOT or RELEASE. Boot 2.0 MILESTONES are explicitly not supported.
