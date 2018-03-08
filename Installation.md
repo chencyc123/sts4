@@ -13,8 +13,8 @@ Download the full featured Spring Tool Suite 4 distribution that has everything 
 Alternatively, you can install STS4 components into an existing Eclipse install:
 
 * Choose `Install New Software` in Eclipse and use this p2 repository URL:
-  * Eclipse Photon (4.8): http://dist.springsource.com/release/TOOLS/sts4/update/e4.8/
-  * Eclipse Oxygen (4.7): http://dist.springsource.com/release/TOOLS/sts4/update/e4.7/
+  * Eclipse Photon (4.8): http://download.springsource.com/release/TOOLS/sts4/update/e4.8/
+  * Eclipse Oxygen (4.7): http://download.springsource.com/release/TOOLS/sts4/update/e4.7/
 * Select the main features you wish to install and proceed.
 
 **We don't recommend to install STS4 into an existing STS 3.9.x installation!!!**
