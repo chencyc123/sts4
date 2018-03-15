@@ -1,7 +1,7 @@
 ## 2018-03-15
 
 * _(Spring Boot)_ support added for request-mapping-like symbols for webflux router definitions
-* _(Spring Boot)_ code lenses for webflux handler methods implemented that visualize the mapped route
+* _(Spring Boot)_ code lenses for webflux handler methods implemented that visualize the mapped route (VSCode only at the moment)
 * _(Spring Boot)_ document highlight support added for webflux router definitions that highlight parts of the routes that belong together
 * _(Spring Boot)_ request mapping symbols now include accept and content type defintions
 * _(Spring Boot)_ support for direct navigation from live injection reports to source code added for Eclipse
