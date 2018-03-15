@@ -1,3 +1,18 @@
+## 2018-03-15
+
+* _(Spring Boot)_ support added for request-mapping-like symbols for webflux router definitions
+* _(Spring Boot)_ code lenses for webflux handler methods implemented that visualize the mapped route
+* _(Spring Boot)_ document highlight support added for webflux router definitions that highlight parts of the routes that belong together
+* _(Spring Boot)_ request mapping symbols now include accept and content type defintions
+* _(Spring Boot)_ support for direct navigation from live injection reports to source code added for Eclipse
+* _(Spring Boot)_ abstract @Bean-annotated methods are now ignored when creating symbols for bean definitions
+* _(Spring Boot)_ URLs from hovers (like request mapping URLs from running boot apps) now open in an internal browser that has a navigation and an address bar
+* _(Spring Boot)_ bugfix for NPE that happened occasionally when creating a new Java file
+* _(Concourse)_ added support for symbols for groups
+* _(Concourse)_ updated URLs in documentation to point to new Concourse domain
+* _(Atom integration)_ improved JDK/JRE identification mechanism
+* _(all)_ language server processes now show up with their real name when using `jps` instead of just `JarLauncher`
+
 ## 2018-02-23
 
 __Attention:__ We merged the two different extensions for Spring Boot (for Java code and for properties) into a single extension for the various platforms (Eclipse, VSCode, Atom). This might require that you manually uninstall the old extensions and install the new ones. Automatic updates don't work here. For the Eclipse case, you might want to start with a fresh STS4 M9 distribution and go from there to avoid manual uninstall/install steps.
