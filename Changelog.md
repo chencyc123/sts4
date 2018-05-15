@@ -5,6 +5,7 @@
 * _(Spring Boot)_ bugfix - custom JMX domains now supported for live hovers (([#44](https://github.com/spring-projects/sts4/issues/44)))
 * _(Spring Boot)_ bugfix - live hovers now show up for all open editors (not limited to the one with focus anymore)
 * _(Eclipse)_ STS4 builds on Eclipse are now based on the latest Eclipse Photon (4.8) milestone builds only, there are no 4.7-compatible builds available anymore
+* _(Eclipse)_ code lenses for webflux handler methods for mapped route visualization work now in Eclipse
 * _(Eclipse)_ keybindings added to Sprig Boot Dashboard
 * _(Eclipse)_ property editors now show line/column numbers in status bar
 * _(Eclipse)_ bugfix - debugging apps on Cloud Foundry via Boot Dashboard works again 
