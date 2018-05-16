@@ -1,4 +1,4 @@
-## 2018-05-14
+## 2018-05-14 (M11)
 
 * _(Spring Boot)_ major performance improvements and footprint reductions (due to a groundbreaking change to how projects are being resolved, this is now delegated to the surrounding Java tooling)
 * _(Spring Boot)_ support for JDK10 added
@@ -11,7 +11,7 @@
 * _(Eclipse)_ bugfix - debugging apps on Cloud Foundry via Boot Dashboard works again 
 * _(all)_ JVM used to run the language servers can now be specified via custom settings ([#51](https://github.com/spring-projects/sts4/issues/51))
 
-## 2018-03-15
+## 2018-03-15 (M10)
 
 * _(Spring Boot)_ support added for request-mapping-like symbols for webflux router definitions
 * _(Spring Boot)_ code lenses for webflux handler methods implemented that visualize the mapped route (VSCode only at the moment)
@@ -26,7 +26,7 @@
 * _(Atom integration)_ improved JDK/JRE identification mechanism
 * _(all)_ language server processes now show up with their real name when using `jps` instead of just `JarLauncher`
 
-## 2018-02-23
+## 2018-02-23 (M9)
 
 __Attention:__ We merged the two different extensions for Spring Boot (for Java code and for properties) into a single extension for the various platforms (Eclipse, VSCode, Atom). This might require that you manually uninstall the old extensions and install the new ones. Automatic updates don't work here. For the Eclipse case, you might want to start with a fresh STS4 M9 distribution and go from there to avoid manual uninstall/install steps.
 
@@ -42,7 +42,7 @@ __Attention:__ We merged the two different extensions for Spring Boot (for Java 
 * _(Eclipse integration)_ bug fix to prevent exception in the IDE when initial project got deleted
 * improved the way the JDK to run the language server is found together with an improved error message if no JDK can be found
 
-## 2018-01-30
+## 2018-01-30 (M8)
 
 * _(Spring Boot Java)_ function declarations are now being parsed into symbols for functions that directly inherit from `java.util.Function` ([#18](https://github.com/spring-projects/sts4/issues/18))
 * _(Spring Boot Java)_ updated live hover mechanics to work with latest Spring Boot 2.0 snapshot versions 
@@ -62,7 +62,7 @@ __Attention:__ We merged the two different extensions for Spring Boot (for Java 
 * _(Concourse)_ added support for cache attribute in tasks
 * _(Concourse)_ added missing version attribute in image_resource
 
-## 2017-12-15
+## 2017-12-15 (M7)
 
 * _(all)_ issues solved when running on Windows ([#25](https://github.com/spring-projects/sts4/issues/25), [#26](https://github.com/spring-projects/sts4/issues/26), [#29](https://github.com/spring-projects/sts4/issues/29))
 * _(Spring Boot Java)_ live hover information now works for inner classes
