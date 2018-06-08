@@ -9,7 +9,6 @@
 * _(Eclipse)_ default editors for Boot properties (application.properties and application.yml files) now based on the generic editor and the language server support - the old editors are still around, but will be removed in future versions of STS4
 * _(Eclipse)_ bugfix: filter in wizard to import Spring guides works again
 
-
 ## 2018-05-14 (M11)
 
 * _(Spring Boot)_ major performance improvements and footprint reductions (due to a groundbreaking change to how projects are being resolved, this is now delegated to the surrounding Java tooling)
