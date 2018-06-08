@@ -1,3 +1,15 @@
+## 2018-06-08 (M12)
+
+* _(Spring Boot)_ live hovers now updated in all open editors, not just the active one
+* _(Spring Boot)_ performance improvement: project symbols now show up a lot faster for the open editors/projects (in a multi-root folder workspace)
+* _(Spring Boot)_ bugfix: JDK9 and JDK10 projects supported now even if main editor and/or language server runs on JDK8
+* _(Spring Boot)_ bugfix: various NPEs in Spring indexer fixed
+* _(Concourse)_ add support for new attributes of DockerImageSource (aws_session_token, max_concurrent_downloads, max_concurrent_uploads) and DockerImagePutParams (additional_tags, cache_from, load_bases, target_name)
+* _(Concourse)_ bugfix: quick fixes work again
+* _(Eclipse)_ default editors for Boot properties (application.properties and application.yml files) now based on the generic editor and the language server support - the old editors are still around, but will be removed in future versions of STS4
+* _(Eclipse)_ bugfix: filter in wizard to import Spring guides works again
+
+
 ## 2018-05-14 (M11)
 
 * _(Spring Boot)_ major performance improvements and footprint reductions (due to a groundbreaking change to how projects are being resolved, this is now delegated to the surrounding Java tooling)
