@@ -1,14 +1,14 @@
 ## Public beta release
 
-This guides you through the various installation steps for the STS4 components for the public beta release. All the variants require a JDK8 (or JDK9) to be installed on your system as a prerequisite.
+This guides you through the various installation steps for the STS4 components for the public beta release. All the variants require at least a JDK8, JDK9, or JDK10 to be installed on your system as a prerequisite.
 
 ## Spring Tool Suite 4 (as Eclipse-based distribution)
 
 Download the full featured Spring Tool Suite 4 distribution that has everything pre-installed:
 
-* [STS4.0 M11 (Public Beta) for Windows 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M11/dist/e4.8/spring-tool-suite-4-4.0.0.M11-e4.8.0-win32.win32.x86_64.zip)
-* [STS4.0 M11 (Public Beta) for macOS 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M11/dist/e4.8/spring-tool-suite-4-4.0.0.M11-e4.8.0-macosx.cocoa.x86_64.dmg)
-* [STS4.0 M11 (Public Beta) for Linux/GTK 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M11/dist/e4.8/spring-tool-suite-4-4.0.0.M11-e4.8.0-linux.gtk.x86_64.tar.gz)
+* [STS4.0 M12 (Public Beta) for Windows 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M12/dist/e4.8/spring-tool-suite-4-4.0.0.M12-e4.8.0-win32.win32.x86_64.zip)
+* [STS4.0 M12 (Public Beta) for macOS 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M12/dist/e4.8/spring-tool-suite-4-4.0.0.M12-e4.8.0-macosx.cocoa.x86_64.dmg)
+* [STS4.0 M12 (Public Beta) for Linux/GTK 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M12/dist/e4.8/spring-tool-suite-4-4.0.0.M12-e4.8.0-linux.gtk.x86_64.tar.gz)
 
 Alternatively, you can install STS4 components into an existing Eclipse install:
 
