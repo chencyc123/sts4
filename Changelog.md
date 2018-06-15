@@ -1,14 +1,16 @@
-## 2018-06-08 (M12)
+## 2018-06-14 (M12)
 
 * _(Spring Boot)_ live hovers now updated in all open editors, not just the active one
 * _(Spring Boot)_ more detailed context shown in hover documentation when editing property files ([#265](https://github.com/spring-projects/spring-ide/issues/265))
 * _(Spring Boot)_ performance improvement: project symbols now show up a lot faster for the open editors/projects (in a multi-root folder workspace)
 * _(Spring Boot)_ bugfix: JDK9 and JDK10 projects supported now even if main editor and/or language server runs on JDK8
 * _(Spring Boot)_ bugfix: various NPEs in Spring indexer fixed
+* _(Spring Boot)_ bugfix: webflux route document highlights message show up for property files
 * _(Concourse)_ add support for new attributes of DockerImageSource (aws_session_token, max_concurrent_downloads, max_concurrent_uploads) and DockerImagePutParams (additional_tags, cache_from, load_bases, target_name) ([#56](https://github.com/spring-projects/sts4/issues/56))
 * _(Concourse)_ bugfix: quick fixes work again
 * _(Eclipse)_ default editors for Boot properties (application.properties and application.yml files) now based on the generic editor and the language server support - the old editors are still around, but will be removed in future versions of STS4
 * _(Eclipse)_ bugfix: filter in wizard to import Spring guides works again
+* _(Eclipse)_ bugfix: fixed change event with bad version exception
 
 ## 2018-05-14 (M11)
 
