@@ -1,3 +1,21 @@
+## 2018-07-23 (M13)
+
+* _(Spring Boot)_ early prototype for detecting changed bean definitions in live-running (and restarted) boot applications
+* _(Spring Boot)_ @Inject annotation now supported for live hovers
+* _(Spring Boot)_ added option to match live running apps and workspace projects manually
+* _(Spring Boot)_ improved JMX connector reuse (internal optimization)
+* _(Concourse)_ fixed: missing params in extension ([#65](https://github.com/spring-projects/sts4/issues/65))
+* _(Concourse)_ fixed: Concourse VSCode Extension: Does not recognize GCS buckets in semver resource ([#60](https://github.com/spring-projects/sts4/issues/60))
+* _(Eclipse)_ distribution updated to final Eclipse Photon release
+* _(Eclipse)_ added action to close language server log console
+* _(Eclipse)_ single non-signed bundle is now signed as well
+* _(Eclipse)_ New Spring Starter wizard and Edit Spring Starters wizard both now display information for disabled starter modules (explains why they are disabled)
+* _(Eclipse)_ fixed: Edit Starters doesn't properly handle removal of all dependencies ([#52](https://github.com/spring-projects/sts4/issues/52))
+* _(Eclipse)_ fixed: Edit Starters doesn't handle cross selections well ([#52](https://github.com/spring-projects/sts4/issues/52))
+* _(Eclipse)_ fixed: old language server starts up again even if not directly used
+* _(Atom)_ fixed: Function.extractParams is deprecated ([#61](https://github.com/spring-projects/sts4/issues/61))
+* _(Atom)_ fallback project resolution works now when running on JDK9 and beyond
+
 ## 2018-06-14 (M12)
 
 * _(Spring Boot)_ live hovers now updated in all open editors, not just the active one
