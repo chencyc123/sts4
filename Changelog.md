@@ -5,6 +5,7 @@
 * _(Spring Boot)_ added option to match live running apps and workspace projects manually
 * _(Spring Boot)_ improved JMX connector reuse (internal optimization)
 * _(Concourse)_ fixed: missing params in extension ([#65](https://github.com/spring-projects/sts4/issues/65))
+* _(Concourse)_ fixed: Add support form missing attributes to `GitGetParams` schema ([#64](https://github.com/spring-projects/sts4/issues/64)
 * _(Concourse)_ fixed: Concourse VSCode Extension: Does not recognize GCS buckets in semver resource ([#60](https://github.com/spring-projects/sts4/issues/60))
 * _(Eclipse)_ distribution updated to final Eclipse Photon release
 * _(Eclipse)_ added action to close language server log console
