@@ -4,6 +4,7 @@
 * _(Spring Boot)_ improved and simplified content for live hovers showing bean wiring information
 * _(Spring Boot)_ improved look of live hover highlights
 * (_Spring Boot)_ improved error handling when source code parsing goes wrong
+* (_Spring Boot)_ added specific bean wiring live hovers for `@Autowired` fields and constructors
 * (_Spring Boot)_ user-defined values in property files showing up as suggestions for `@Value` completions
 * (_Spring Boot)_ bean symbols now directly contain additional annotations (like `@Conditional...` or `@Profile`)
 * (_Spring Boot)_ added option to match running process directly to specific project in the workspace (for live hovers) via system property (set `-Dspring.boot.project.name=<project-name-in-workspace>` to show live hovers of that running process exclusively on the project with that name).
