@@ -1,5 +1,6 @@
 ## 2018-08-09 (M14)
 
+*_(Concourse)_ added support for `tags` property in `resources` ([#66](https://github.com/spring-projects/sts4/issues/66))
 * _(Spring Boot)_ added support for showing live hovers for Spring Boot apps running remotely (on Cloud Foundry)
 * _(Spring Boot)_ improved and simplified content for live hovers showing bean wiring information
 * _(Spring Boot)_ improved look of live hover highlights
