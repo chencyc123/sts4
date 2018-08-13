@@ -6,14 +6,14 @@ This guides you through the various installation steps for the STS4 components f
 
 Download the full featured Spring Tool Suite 4 distribution that has everything pre-installed:
 
-* [STS4.0 M13 (Public Beta) for Windows 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M13/dist/e4.8/spring-tool-suite-4-4.0.0.M13-e4.8.0-win32.win32.x86_64.zip)
-* [STS4.0 M13 (Public Beta) for macOS 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M13/dist/e4.8/spring-tool-suite-4-4.0.0.M13-e4.8.0-macosx.cocoa.x86_64.dmg)
-* [STS4.0 M13 (Public Beta) for Linux/GTK 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M13/dist/e4.8/spring-tool-suite-4-4.0.0.M13-e4.8.0-linux.gtk.x86_64.tar.gz)
+* [STS4.0 M14 (Public Beta) for Windows 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M14/dist/e4.9/spring-tool-suite-4-4.0.0.M14-e4.9.0-win32.win32.x86_64.zip)
+* [STS4.0 M14 (Public Beta) for macOS 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M14/dist/e4.9/spring-tool-suite-4-4.0.0.M14-e4.9.0-macosx.cocoa.x86_64.dmg)
+* [STS4.0 M14 (Public Beta) for Linux/GTK 64bit](http://download.springsource.com/milestone/STS4/4.0.0.M14/dist/e4.9/spring-tool-suite-4-4.0.0.M14-e4.9.0-linux.gtk.x86_64.tar.gz)
 
 Alternatively, you can install STS4 components into an existing Eclipse install:
 
 * Choose `Install New Software` in Eclipse and use this p2 repository URL:
-  * Eclipse Photon (4.8): http://download.springsource.com/release/TOOLS/sts4/update/e4.8/
+  * Eclipse 2018-09 (4.9): http://download.springsource.com/release/TOOLS/sts4/update/latest/
 * Select the main features you wish to install and proceed.
 
 **If you would like to try STS4 features inside of an existing STS 3.9.x installation, please open the
