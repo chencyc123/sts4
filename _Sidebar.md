@@ -1,6 +1,7 @@
 * [Installation](https://github.com/spring-projects/sts4/wiki/Installation)
 
 * [User Guide](https://github.com/spring-projects/sts4/wiki/User-Guide)
+  - [Navigation]
 
 * [Changelog](https://github.com/spring-projects/sts4/wiki/Changelog)
 
