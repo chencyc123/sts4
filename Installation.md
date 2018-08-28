@@ -47,8 +47,7 @@ Download and Install Atom 1.21 or 1.22.beta.2
 Atom packages can be installed through `Atom -> Preferences` - on `Settings` window, select `Install`. Atom packages may prompt you to install missing prerequisite Atom packages (i.e. `ide-ui` and/or `ide-java`). It's recommended that you chose to install them.
 
 Install the following from the Spring Team ([spring-projects](https://github.com/spring-projects)):
-- **boot-java**
-- **boot-properties**
+- **spring-boot**
 
 Optionally :
 - **bosh-yaml**
@@ -56,8 +55,13 @@ Optionally :
 - **cf-manifest-yaml**
 
 It is possible to install dev builds of these packages as follows:
-* Grab the latest Atom packages from here: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
-* Unpack each Atom package into a different folder
-* An Atom package is similar to NPM package and has `package.json` file in it. Run `apm link .` CLI command from each Atom package folder - the folder should have `package.json` file in it (or `apm-beta link .` for Atom beta version)
+* Grab the latest Atom packages from git repositories:
+  - spring-boot - https://github.com/spring-projects/atom-spring-boot
+  - bosh-yaml - https://github.com/spring-projects/atom-bosh
+  - concourse-pipeline-yaml - https://github.com/spring-projects/atom-concourse
+  - cf-manifest-yaml - https://github.com/spring-projects/atom-cf-manifest-yaml
+* Clone git repository
+* Run `npm install` from the folder where the repository was cloned to (from `~/git/atom-spring-boot` folder for example)
+* Run `apm link .` CLI command from each Atom package folder - the folder should have `package.json` file in it (or `apm-beta link .` for Atom beta version)
 * Either open Atom or execute `Reload Window` command if it's opened (`Packages -> Command Palette -> Toggle`)
 * Verify that package is installed in `Atom -> Preferences` `Packages` tab, i.e. listed in the list of installed packages
