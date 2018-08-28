@@ -4,6 +4,7 @@
   - [Navigation](Navigation)
   - [Live Application Information](Live-Application-Information)
   - [Content Assist](Content-Assist)
+  - [Boot Properties Editor](Boot Properties Editor)
 * [FAQ](FAQ)
 * [Changelog](https://github.com/spring-projects/sts4/wiki/Changelog)
 * [Known Limitations](https://github.com/spring-projects/sts4/wiki/Known-Limitations)
