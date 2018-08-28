@@ -1,4 +1,5 @@
-# Navigating the source code - Go to symbol in file/workspace
+# Go to symbol in file/workspace
+
 Easy navigation to Spring-specific elements of your source code.
 
 [[/images/screenshot-navigation.png|Go to Symbol in workspace]]
