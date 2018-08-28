@@ -60,7 +60,7 @@ It is possible to install dev builds of these packages as follows:
   - bosh-yaml - https://github.com/spring-projects/atom-bosh
   - concourse-pipeline-yaml - https://github.com/spring-projects/atom-concourse
   - cf-manifest-yaml - https://github.com/spring-projects/atom-cf-manifest-yaml
-* Clone git repository
+* Clone git repository. If already cloned navigate to the cloned repository folder and run `git clean -fxd` followed by `git pull` - these commands ensure that old language server JAR is deleted and new changes from the git repository pulled in.
 * Pick specific version of the package via git tags or a snapshot via git commits
 * Run `npm install` from the folder where the repository was cloned to (from `~/git/atom-spring-boot` folder for example)
 * Run `apm link .` CLI command from each Atom package folder - the folder should have `package.json` file in it (or `apm-beta link .` for Atom beta version)
