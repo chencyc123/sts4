@@ -1,4 +1,6 @@
-# TODO: Here are some notes from Martin about what should really go in this page:
+# TODO: this page still needs to be filled with real content...
+
+Here are some notes about what should really go in this page:
 
 In this section we need to talk about:
 - the hovers in general
