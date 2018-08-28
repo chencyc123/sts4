@@ -3,6 +3,7 @@
   - [Starter Projects](Starter-Projects)
   - [Navigation](Navigation)
   - [Live Application Information](Live-Application-Information)
+  - [Code Templates](Code-Templates)
 * [FAQ](FAQ)
 * [Changelog](https://github.com/spring-projects/sts4/wiki/Changelog)
 * [Known Limitations](https://github.com/spring-projects/sts4/wiki/Known-Limitations)
