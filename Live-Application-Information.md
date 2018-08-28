@@ -8,6 +8,11 @@ In this section we need to talk about:
 - the bean wiring information that is shown as code lenses (with the limitation that this doesn't work in Eclipse and Atom yet)
 - the request mapping hovers + request mapping code lenses
 
+Then a specific section for remote apps with:
+- how to configure remote apps for live information (boot dashboard, manual tunnel setup, manual ls configuration for remote apps)
+
+Need to mention what happens in the background (polling the apps), so users can disable this when it consumes too much resources on their machines)
+
 # Old content, to be reworked and/or deleted:
 
 ## Live application information hovers
