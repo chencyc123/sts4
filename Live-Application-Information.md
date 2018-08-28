@@ -29,3 +29,9 @@ If there are multiple instances of the app running on your machine, the live dat
 * `@Profile`: shows information about the active profiles on the running apps
 * `@Component`, `@Bean`, `@Autowired`: shows detailed information about the beans and their wiring from the live app
 * `@ContidionalOn...`: shows information about the conditions and their evaluation at runtime
+
+### Configuration
+You can enable/disable this feature:
+* Eclipse/Spring Tool Suite 4: via the preferences `Spring -> Spring Boot Language Server`
+* Code: regular JSON preference mechanism using the key: `boot-java.boot-hints.on`.
+* Atom: regular preference mechanism
