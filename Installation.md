@@ -41,7 +41,7 @@ It is possible to install dev builds of these packages as follows:
 
 ## Atom
 
-Download and Install Atom 1.21 or 1.22.beta.2
+Download and Install latest Atom (any version >= 1.22)
 * [Atom](http://atom.io)
 
 Atom packages can be installed through `Atom -> Preferences` - on `Settings` window, select `Install`. Atom packages may prompt you to install missing prerequisite Atom packages (i.e. `ide-ui` and/or `ide-java`). It's recommended that you chose to install them.
