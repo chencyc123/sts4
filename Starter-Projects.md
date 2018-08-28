@@ -1,4 +1,4 @@
-Describes various wizards provided by STS 4 for getting started quickly creating Spring Boot Projects and modifying a project's 'starter' dependencies.
+Describes various wizards for creating Spring Boot Starter Projects and modifying a project's 'starter' dependencies.
 
 # New Spring Starter Wizard
 
