@@ -3,6 +3,7 @@
 * [User Guide](https://github.com/spring-projects/sts4/wiki/User-Guide)
   - [Starter Projects](Starter-Projects)
   - [Navigation](Navigation)
+  - [Live Application Information](Live Application Information)
 
 * [Changelog](https://github.com/spring-projects/sts4/wiki/Changelog)
 
