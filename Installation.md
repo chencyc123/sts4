@@ -61,7 +61,7 @@ It is possible to install dev builds of these packages as follows:
   - concourse-pipeline-yaml - https://github.com/spring-projects/atom-concourse
   - cf-manifest-yaml - https://github.com/spring-projects/atom-cf-manifest-yaml
 * Clone git repository
-* Pick specific version of the package via git repository tags
+* Pick specific version of the package via git tags or a snapshot via git commits
 * Run `npm install` from the folder where the repository was cloned to (from `~/git/atom-spring-boot` folder for example)
 * Run `apm link .` CLI command from each Atom package folder - the folder should have `package.json` file in it (or `apm-beta link .` for Atom beta version)
 * Either open Atom or execute `Reload Window` command if it's opened (`Packages -> Command Palette -> Toggle`)
