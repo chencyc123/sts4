@@ -1,6 +1,4 @@
-## Public beta release
-
-This guides you through the various installation steps for the STS4 components for the public beta release. All the variants require at least a JDK8, JDK9, or JDK10 to be installed on your system as a prerequisite.
+This guides you through the various installation steps for the STS4 components. All the variants require at least a JDK8, JDK9, or JDK10 to be installed on your system as a prerequisite.
 
 ## Spring Tool Suite 4 (as Eclipse-based distribution)
 
@@ -31,13 +29,6 @@ Download and install Visual Studio Code:
 Install from the Visual Studio Marketplace:
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 * [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack)
-
-It is possible to install dev builds of these packages as follows:
-* Grab the latest VSIX packages from here: http://dist.springsource.com/snapshot/STS4/nightly-distributions.html
-* Select `Command Palette...` from the `View` (or Press Cmd-Shift-P)
-* Search for `Install from VSIX` and execute that
-* Select the downloaded VSIX file
-* Re-open the VSCode window after successful install
 
 ## Atom
 
