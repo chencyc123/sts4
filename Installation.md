@@ -1,4 +1,4 @@
-This guides you through the various installation steps for the STS4 components. All the variants require at least a JDK8, JDK9, or JDK10 to be installed on your system as a prerequisite.
+This guides you through the various installation steps for the STS4 components on the different supported platforms (Eclipse, Visual Studio Code and Atom). All the variants require at least a JDK8, JDK9, or JDK10 to be installed on your system as a prerequisite.
 
 ## Spring Tool Suite 4 (as Eclipse-based distribution)
 
@@ -29,6 +29,8 @@ Download and install Visual Studio Code:
 Install from the Visual Studio Marketplace:
 * [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 * [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack)
+
+More detailed instructions on installing extension from Visual Studio Marketplace can be found [here](https://code.visualstudio.com/docs/editor/extension-gallery)
 
 ## Atom
 
