@@ -1,6 +1,25 @@
+## 2018-08-30 (M15)
+
+* _(Spring Boot)_ improved the overall content of bean wiring live hovers
+* _(Spring Boot)_ live hover information for bean wirings now show up more precisely on autowired fields and constructors as well as at `@Bean` definitions, including more complete information about the wirings
+* _(Spring Boot)_ improved performance of live hovers for remote boot apps
+* _(Spring Boot)_ added experimental option to show code lenses for live hover information, including bean wiring and request mapping URLs (use the preferences to switch that on)
+* _(Spring Boot)_ added detailed information to the boot dashboard property view about JMX tunnels over SSH to boot apps running on CloudFoundry
+* _(Spring Boot)_ added action to enable/disable JMX tunneling through SSH for already deployed and running apps
+* _(Spring Boot)_ improved performance and reduced footprint of live hover update mechanism
+* _(Spring Boot)_ bugfix: fixed missing line break in live hover for request mappings
+* _(Spring Boot)_ bugfix: resource links in live hovers for remote boot apps now working
+* _(Spring Boot)_ bugfix: make the overall classpath detection mechanism more reliable in case of project deletions ([#69](https://github.com/spring-projects/sts4/issues/69))
+* _(Eclipse)_ updated versions of the Spring Boot CLI and Spring Cloud CLI that is being used for local cloud services in the boot dashboard
+* _(Eclipse)_ added preference to manually define JMX connections for remote apps (as a fallback)
+* _(Eclipse)_ fixed tabs setting in YAML editors, now use spaces for tabs automatically
+* _(Eclipse)_ fixed a NPE when trying to apply quick fixes in property editors
+* _(VSCode)_ updated extension pack definition to use new extension dependency declarations ([#68](https://github.com/spring-projects/sts4/issues/68))
+* _(VSCode)_ fixed warning about missing scheme in document selector
+
+
 ## 2018-08-09 (M14)
 
-* _(Concourse)_ added support for `tags` property in `resources` ([#66](https://github.com/spring-projects/sts4/issues/66))
 * _(Spring Boot)_ added support for showing live hovers for Spring Boot apps running remotely (on Cloud Foundry)
 * _(Spring Boot)_ improved and simplified content for live hovers showing bean wiring information
 * _(Spring Boot)_ improved look of live hover highlights
@@ -10,6 +29,7 @@
 * (_Spring Boot)_ bean symbols now directly contain additional annotations (like `@Conditional...` or `@Profile`)
 * (_Spring Boot)_ added option to match running process directly to specific project in the workspace (for live hovers) via system property (set `-Dspring.boot.project.name=<project-name-in-workspace>` to show live hovers of that running process exclusively on the project with that name).
 * (_Spring Boot)_ fixed bug that prevented property editing support to work on Windows ([#59](https://github.com/spring-projects/sts4/issues/59))
+* _(Concourse)_ added support for `tags` property in `resources` ([#66](https://github.com/spring-projects/sts4/issues/66))
 * _(Eclipse)_ removed old property editors
 
 ## 2018-07-23 (M13)
