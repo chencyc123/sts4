@@ -36,8 +36,8 @@ Download and Install latest Atom (any version >= 1.22)
 
 Atom packages can be installed through `Atom -> Preferences` - on `Settings` window, select `Install`. Atom packages may prompt you to install missing prerequisite Atom packages (i.e. `ide-ui` and/or `ide-java`). It's recommended that you choose to install them.
 
-Install the following from the Spring Team ([spring-projects](https://github.com/spring-projects)):
-- **spring-boot**
-- **bosh-yaml**
-- **concourse-pipeline-yaml**
-- **cf-manifest-yaml**
+Install the following from the Spring Team ([spring-projects](https://atom.io/users/spring-projects)):
+- [spring-boot](https://atom.io/packages/spring-boot)
+- [bosh-yaml](https://atom.io/packages/bosh-yaml)
+- [concourse-pipeline-yaml](https://atom.io/packages/concourse-pipeline-yaml)
+- [cf-manifest-yaml](https://atom.io/packages/cf-manifest-yaml)
