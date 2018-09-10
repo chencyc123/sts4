@@ -6,9 +6,9 @@ This Wizard use the [start.spring.io](https://start.spring.io) webservice to gen
 
 Menu **File >> New >> Spring Starter Project**.
 
-![New Starter Wizard Page 1](/images/screenshot-new-spring-starter-page-1.png)
+[[/images/screenshot-new-spring-starter-page-1.png|New Starter Wizard Page 1]]
 
-![New Starter Wizard Page 2](/images/screenshot-new-spring-starter-page-2.png)
+[[/images/screenshot-new-spring-starter-page-2.png|New Starter Wizard Page 2]]
 
 ## Known Limitations
 
