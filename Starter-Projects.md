@@ -32,4 +32,7 @@ The wizard is accessed from the `pom.xml` context menu (i.e. right-click on the 
 
 This wizard imports sample projects from a number of [Tutorials](https://spring.io/guides) available at the [spring.io](https://spring.io/) website. The wizard imports the sample code ready for use in your workspace and opens the web-page of the selected tutorial in a web browsers.
 
-This wizard is accessible from menu **File >> New >> Import Getting Started Content**
+This wizard is accessible from menu **File >> New >> Import Spring Getting Started Content**.
+
+There's a detailed tutorial on how to use this wizard available [here](https://spring.io/guides/gs/sts/).
+
