@@ -24,7 +24,7 @@ Although the wizard has a 'Language' pull-down allowing to choose Java, Kotlin o
 If you created a project with the [New Spring Starter Wizard](#new-spring-starter-wizard) and you change
 your mind later about which Starter dependencies you wanted. You can use this wizard to remove or add aditional starter dependencies.
 
-The wizard is accessed from the `pom.xml` context menu (i.e. right-click on the `pom.xml` file in the package or project explorer).
+The wizard is accessed from the `pom.xml` context menu (i.e. right-click on the `pom.xml` file in the package or project explorer) under **Spring >> Edit Starters**.
 
 [[/images/screenshot-edit-starters.png|Edit Starters Wizard]]
 
