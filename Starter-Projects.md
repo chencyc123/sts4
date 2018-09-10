@@ -2,7 +2,11 @@ Describes various wizards for creating Spring Boot Starter Projects and modifyin
 
 # New Spring Starter Wizard
 
-TODO
+This Wizard use the [start.spring.io](https://start.spring.io) webservice to generate a Spring Boot Starter project. The project is imported into your workspace.
+
+Menu **File >> New >> Spring Starter Project**.
+
+
 
 # Edit Starters Wizard
 
