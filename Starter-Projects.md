@@ -6,7 +6,12 @@ This Wizard use the [start.spring.io](https://start.spring.io) webservice to gen
 
 Menu **File >> New >> Spring Starter Project**.
 
+On the first page you can set various basic project options:
+
 [[/images/screenshot-new-spring-starter-page-1.png|New Starter Wizard Page 1]]
+
+The second page is the more interesting one, where you search for and choose
+various 'Starter' dependencies:
 
 [[/images/screenshot-new-spring-starter-page-2.png|New Starter Wizard Page 2]]
 
@@ -16,8 +21,15 @@ Although the wizard has a 'Language' pull-down allowing to choose Java / Kotlin 
 
 # Edit Starters Wizard
 
-If you created a project with the [New Spring Starter Wizard](#new-starter)
+If you created a project with the [New Spring Starter Wizard](#new-spring-starter-wizard) and you change
+your mind later about which Starter dependencies you wanted. You can use this wizard to remove or add aditional starter dependencies.
+
+The wizard is accessed from the `pom.xml` context menu (i.e. right-click on the `pom.xml` file in the package or project explorer).
+
+[[/images/screenshot-edit-starters.png|Edit Starters Wizard]]
 
 # Import Getting Started Content Wizard
 
-TODO
+This wizard imports sample projects from a number of [Tutorials](https://spring.io/guides) available at the [spring.io](https://spring.io/) website. The wizard imports the sample code ready for use in your workspace and opens the web-page of the selected tutorial in a web browsers.
+
+This wizard is accessible from menu **File >> New >> Import Getting Started Content**
