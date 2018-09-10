@@ -16,7 +16,7 @@ Although the wizard has a 'Language' pull-down allowing to choose Java / Kotlin 
 
 # Edit Starters Wizard
 
-TODO
+If you created a project with the [New Spring Starter Wizard](#new-starter)
 
 # Import Getting Started Content Wizard
 
