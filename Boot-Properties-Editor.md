@@ -31,7 +31,7 @@ hovers while editing Spring Boot Properties in either `.properties` or `.yml` fo
 
 ## Validation
 
-[[/images/editor-boot-yml-validation][yaml-validation]]
+[[/images/editor-boot-yml-validation|yaml-validation]]
 [[/images/editor-boot-properties-validation.png|properties-validation]]
 
 ## Code Completions
