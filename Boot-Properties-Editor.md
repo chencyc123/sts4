@@ -10,10 +10,10 @@ The Boot properties/yml editor will automatically be used when you edit files wi
 
 There is a somewhat clunky workaround for this limitation:
 
-- Open Eclipse Preferences and Search for 'Content Types'.
+- Open Eclipse Preferences and Search for **Content Types**.
 - Select the **Spring Properties File** or **Spring Yaml Properties File** content type.
 - In the **File Associations** section click the **Add** button.
-- Enter the name of your file exactly. For example `application-custom-profile.properties`.
+- Enter the name of your file **without path** exactly (glob patterns or paths are not supported). For example `application-custom-profile.properties`.
 - Click **Apply and Close** button.
 
 [[/images/editor-customize-content-type.png|Customize Editor Content Types]]
