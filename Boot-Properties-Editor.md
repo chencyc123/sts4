@@ -40,4 +40,4 @@ hovers while editing Spring Boot Properties in either `.properties` or `.yml` fo
 
 ## Information Hovers
 
-[[/images/editor-boot-yml-hover|yaml-hovers]]
+[[/images/editor-boot-yml-hover.png|yaml-hovers]]
