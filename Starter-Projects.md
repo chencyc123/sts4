@@ -15,6 +15,14 @@ various 'Starter' dependencies:
 
 [[/images/screenshot-new-spring-starter-page-2.png|New Starter Wizard Page 2]]
 
+The frequently used section at the top of the page shows up to a dozen or so 
+dependencies that you have used most frequently in the past, for easy access.
+
+Hovering over a starter dependencies provides additional information, such as, links
+to related documentation and tutorials.
+
+[[/images/screenshot-new-spring-starter-hover.png|Starter Dependency Hover]]
+
 ## Known Limitations
 
 Although the wizard has a 'Language' pull-down allowing to choose Java, Kotlin or Groovy, only the Java language is supported by STS out of the box. Projects for Kotlin and Groovy *can* be generated but tooling to work with these languages is not included with STS. You can attempt to install additional Eclipse plugins to work with Kotlin or Groovy. However, the wizard has no specific support for them and does not attempt to configure the imported projects to work with these additional plugins.
