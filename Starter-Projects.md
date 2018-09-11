@@ -10,6 +10,12 @@ On the first page you can set various basic project options:
 
 [[/images/screenshot-new-spring-starter-page-1.png|New Starter Wizard Page 1]]
 
+Note that by default, the wizard uses the public [https://start.spring.io](https://start.spring.io)
+url which points to a public web-service provided by Pivotal. However, it is also possible to use 
+a customised webservice you develop and run in-house. Simply change the url at the top of the page.
+The wizard will remember the url and use that service from now on (until you change it again).
+This could be useful, for example, if you fork the service [source  code on github](https://github.com/spring-io/initializr) to include your own, in-house developed spring-boot starters).
+
 The second page is the more interesting one, where you search for and choose
 various 'Starter' dependencies:
 
@@ -19,7 +25,7 @@ The frequently used section at the top of the page shows up to a dozen or so
 dependencies that you have used most frequently in the past, for easy access.
 
 Hovering over a starter dependencies provides additional information, such as, links
-to related documentation and tutorials.
+to related documentation and tutorials:
 
 [[/images/screenshot-new-spring-starter-hover.png|Starter Dependency Hover]]
 
