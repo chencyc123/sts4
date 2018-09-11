@@ -16,10 +16,10 @@ There is a somewhat clunky workaround for this limitation:
 - Enter the name of your file exactly. For example `application-custom-profile.properties`.
 - Click **Apply and Close** button.
 
+[[/images/editor-customize-content-type.png|Customize Editor Content Types]]
+
 From now on files with the name `application-custom-profile.properties` will be opened with
 the Spring Boot Editor.
-
-[[/images/editor-open-with.png|Open With Context Menu]] 
 
 # Functionality
 
