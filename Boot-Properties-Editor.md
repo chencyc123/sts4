@@ -36,9 +36,7 @@ hovers while editing Spring Boot Properties in either `.properties` or `.yml` fo
 
 ## Code Completions
 
-![application-yaml-completions][yaml-completion]
-
-[[/images/editor-boot-properties-validation.png|properties-completion]
+[[/images/editor-boot-yml-completion.png][yaml-completion]
 
 ## Information Hovers
 
