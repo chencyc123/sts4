@@ -24,7 +24,7 @@ various 'Starter' dependencies:
 The frequently used section at the top of the page shows up to a dozen or so 
 dependencies that you have used most frequently in the past, for easy access.
 
-Hovering over a starter dependencies provides additional information, such as, links
+Hovering over a starter dependencies provides additional information, such as links
 to related documentation and tutorials:
 
 [[/images/screenshot-new-spring-starter-hover.png|Starter Dependency Hover]]
