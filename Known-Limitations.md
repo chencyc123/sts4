@@ -1,10 +1,6 @@
 ## Known limitations
 
-* JDK9:
-  * the Eclipse distribution comes with coding support for JDK9, but the Spring tooling in the background doesn't fully handle JDK9 source code yet
-  * also running on top of a JDK9 (have JAVA_HOME set to a JDK9) can cause issues, we suggest to run on JDK8 for now.
-
-* JDK8:
+* JDK8/9/10/11:
   * JDK 1.8.0_060 and above are required for some features of [Spring Boot Java Support](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-java)
 
 * JDK required instead of a JRE
@@ -19,7 +15,7 @@
 
 * Live Hovers not showing up
   * make sure the Spring Boot Actuators are on the classpath (add the Maven dependency, if necessary)
-  * make sure your project is either Boot 1.5.x release or Boot 2.0.SNAPSHOT or RELEASE. Boot 2.0 MILESTONES are explicitly not supported.
+  * make sure your project is either Boot 1.5.x, Boot 2.0.x, or Boot 2.1.x.
   * make sure you run on a JDK, not a JRE (see above)
   * there are some network configuration cases that prevent the language server from connecting to the running Spring Boot application via JMX. In that case, add `-Djava.rmi.server.hostname=localhost` to the VM arguments when starting up your Spring Boot app.
   * On Windows... it is fairly common for the folder at `%TMP%\hsperf-%USERNAM%` to get wrong permissions, especially if you recently installed / reinstalled or updated your JDK. To fix this, simply delete the folder and restart your Boot app and STS 4 (Eclipse, VSCode or Atom). The next java process you start should recreate the folder with correct permissions.
