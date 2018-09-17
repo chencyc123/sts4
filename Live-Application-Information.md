@@ -2,6 +2,8 @@ STS4 automatically detects JVM processes for running boot applications on your l
 
 When a running app is detected, STS 4 automatically shows hints in the source code where data from the running app can be inspected. Then hovering over that area (with the mouse pointer), the data from the running app shows up.
 
+For some types of information, STS 4 may also show a 'quick summary' as a codelens. Codelenses are only supported in Eclipse and Vscode at the moment, not in atom. For Eclipse this has to be enabled via *Preferences >> Language Servers >> Spring Language Servers >> Spring Boot Language Server*.
+
 If there are multiple instances of the app running on your machine, the live data from all those instances will show up in the hover information.
 
 [[/images/screenshot-live-hovers.png|live data from running apps as hover on source code]]
