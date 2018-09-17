@@ -40,10 +40,12 @@ Detailed list of beans provides for each bean the following:
 [[/images/live-bean-hover-eclipse.png|Live Bean information hover in Eclipse]]
 
 A hover can display Live Beans information for more than one running app as you can see below:
+
 [[/images/live-bean-apps-hover-eclipse.png|Live Bean information hover for multiple running apps in Eclipse]]
 
 #### Code Lenses
 Code Lens is displayed on a dedicated line right above the green highlight in the source code. The Live Bean information displayed by the Code Lens is a short one line summary list of wired in beans and injected into beans for the current bean. 
+
 [[/images/live-bean-codelens-eclipse.png|Live Bean Code Lens in Eclipse]]
 
 ### Conditional Beans Information
