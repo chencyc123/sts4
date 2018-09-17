@@ -54,8 +54,7 @@ TODO describe how to enable live hover for non-local app.
 
 ## Completely Disabling this Feature
 
-A background thread is used to periodically scrape running processes for live information. This could negatively affect your machine's performance. If you don't want this for whatever reason this feature can be completely 
-disabled: 
+A background thread is used to periodically scrape running processes for live information. This could negatively affect your machine's performance. This feature can be completely disabled: 
 
 * Eclipse/Spring Tool Suite 4: via the preferences `Spring -> Spring Boot Language Server`
 * Code: regular JSON preference mechanism using the key: `boot-java.boot-hints.on`.
