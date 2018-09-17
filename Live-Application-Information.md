@@ -20,39 +20,41 @@ This includes:
 
 - support can be completely disabled in the editor via preferences.
 
-## Live Requestmappings
+## Live Information Details
+
+This section provides an overview of the different types of live information that are currently
+supported and how each of them can be accessed from the editor.
+
+### Live Requestmappings
 
 TODO fill this in
 - the request mapping hovers + request mapping code lenses
 
-## Live Bean Information
+### Live Bean Information
 
 TODO fill this in:
 
 - the bean wiring information that is shown and how that is being shown
 - the bean wiring information that is shown as code lenses (with the limitation that this doesn't work in Eclipse and Atom yet)
 
-## Conditional Beans Information
+### Conditional Beans Information
 
 TODO fill this in
 * `@ContidionalOn...`: shows information about the conditions and their evaluation at runtime
 
-## Live Active Profiles Information
+### Live Active Profiles Information
 
 TODO fill this in 
 
-# Scraping Remote Applications for Live Information 
+## Remote Applications
 
 TODO describe how to enable live hover for non-local app. 
 - automatic support via boot dash app deployed to CF
 - manual configuration and manual JMX tunneling.
 
-# TODO: this page still needs to be filled with real content...
-
 ## Completely Disabling this Feature
 
-Live information is periodically being scraped from running processes automatically. This could affect 
-your machine's performance. If you don't want this for whatever reason this feature can be completely 
+A background thread is used to periodically scrape running processes for live information. This could negatively affect your machine's performance. If you don't want this for whatever reason this feature can be completely 
 disabled: 
 
 * Eclipse/Spring Tool Suite 4: via the preferences `Spring -> Spring Boot Language Server`
