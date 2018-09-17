@@ -17,13 +17,21 @@ Live information is scraped from running apps using JMX to connect to [Spring Bo
 This section provides an overview of the different types of live information that are currently
 supported and how each of them can be accessed from the editor.
 
-### Live Requestmappings
+### Live Request Mappings
+Live Request Mappings information is displayed for a running Spring Boot application. Live Request Mappings data is fetched from the application process. The data is mapped onto the Request Mappings definitions in the source code. A typical Request Mapping definition is the `@ResquestMapping` annotation. Such spots in the source code are highlighted with the light green background.
 
-TODO fill this in
-- the request mapping hovers + request mapping code lenses
+Hovering over such place in the source code displays Live Request Mapping information hover which shows the following:
+- List of Live Request Mapping URLs defined by the Request Mapping defintions (hyper-links)
+- Process information from which Live Request Mappings data has been fetched from
 
+Code Lens is displayed on a dedicated line right above the green highlight in the source code. The Live Request Mapping URLs are displayed in a single line. Clicking on a URL opens this URL in the browser.
+
+Both the hover and the Code Lens support multiple running Boot apps.
+
+[[/images/live-rm-eclipse.png|Live Request Mapping in Eclipse]]
+ 
 ### Live Bean Information
-Live Beans information is displayed for a running Spring Boot application. Live Beans data is fetched from the application process. The data is mapped right onto the source code. Namely at the source code pieces where beans are injected or defined. Typically such places in the source code are Spring annotations but there are other places such as Component constructors, Spring Data repositories etc. These spots in the source code are highlighted with light green background. Live Beans information is also available for apps running on the Cloud Foundry if SSH Tunnel is enabled when the app is deployed to Cloud Foundry via Boot Dashboard.
+Live Beans information is displayed for a running Spring Boot application. Live Beans data is fetched from the application process. The data is mapped right onto the source code. Namely at the source code pieces where beans are injected or defined. Typically such places in the source code are Spring annotations but there are other places such as Component constructors, Spring Data repositories etc. These spots in the source code are highlighted with light green background.
 
 #### Hovers
 Live Beans hover is displayed when hovering over green highlights in the source code where beans are injected or defined.
@@ -39,7 +47,7 @@ Detailed list of beans provides for each bean the following:
 
 [[/images/live-bean-hover-eclipse.png|Live Bean information hover in Eclipse]]
 
-A hover can display Live Beans information for more than one running app as you can see below:
+The hover can display Live Beans information for more than one running app as you can see below:
 
 [[/images/live-bean-apps-hover-eclipse.png|Live Bean information hover for multiple running apps in Eclipse]]
 
