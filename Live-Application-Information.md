@@ -23,11 +23,28 @@ TODO fill this in
 - the request mapping hovers + request mapping code lenses
 
 ### Live Bean Information
+Live Beans information is displayed for a running Spring Boot application. Live Beans data is fetched from the application process. The data is mapped right onto the source code. Namely at the source code pieces where beans are injected or defined. Typically such places in the source code are Spring annotations but there are other places such as Component constructors, Spring Data repositories etc. These spots in the source code are highlighted with light green background. Live Beans information is also available for apps running on the Cloud Foundry if SSH Tunnel is enabled when the app is deployed to Cloud Foundry via Boot Dashboard.
 
-TODO fill this in:
+#### Hovers
+Live Beans hover is displayed when hovering over green highlights in the source code where beans are injected or defined.
+Typical Live Bean hover displays the following:
+- List of beans current bean is injected into. Short summary list of beans in a single line followed by the detailed beans list
+- List of beans wired into the current bean. Short summary list of beans in a single line followed by the detailed beans list 
+- Process information from which Live Beans data has been fetched from
 
-- the bean wiring information that is shown and how that is being shown
-- the bean wiring information that is shown as code lenses (with the limitation that this doesn't work in Eclipse and Atom yet)
+Detailed list of beans provides for each bean the following:
+- Bean ID
+- Bean Java type (hyper-link)
+- Resource defining the bean (hyper-link)
+
+[[/images/live-bean-hover-eclipse.png|Live Bean information hover in Eclipse]]
+
+A hover can display Live Beans information for more than one running app as you can see below:
+[[/images/live-bean-apps-hover-eclipse.png|Live Bean information hover for multiple running apps in Eclipse]]
+
+#### Code Lenses
+Code Lens is displayed on a dedicated line right above the green highlight in the source code. The Live Bean information displayed by the Code Lens is a short one line summary list of wired in beans and injected into beans for the current bean. 
+[[/images/live-bean-codelens-eclipse.png|Live Bean Code Lens in Eclipse]]
 
 ### Conditional Beans Information
 
