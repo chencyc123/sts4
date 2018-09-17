@@ -12,25 +12,6 @@ If there are multiple instances of the app running on your machine, the live dat
 
 Live information is scraped from running apps using JMX to connect to [Spring Boot Actuator Endpoints](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html). This means that actuator must be added as a dependency to your application and endable. The easiest way to accomplish this is to add the `spring-boot-actuator-starter` dependency to your application's `pom.xml` or `build.gradle` as explained [here](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-enabling.html).
 
-For example in the `pom.xml`:
-
-```
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-```
-
-For example in the `build.gradle`:
-
-```
-dependencies {
-  ...
-	compile('org.springframework.boot:spring-boot-starter-actuator')
-  ...
-}
-```
-
 ## Live Information Details
 
 This section provides an overview of the different types of live information that are currently
