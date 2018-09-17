@@ -1,12 +1,46 @@
+STS4 automatically detects JVM processes for running boot applications on your local machine and
+scrapes them for 'live' runtime information about beans, requestmappings amongst other things.
+
+When a running app is detected, STS 4 automatically shows hints in the source code where data from the running app can be inspected. Then hovering over that area (with the mouse pointer), the data from the running app shows up.
+
+If there are multiple instances of the app running on your machine, the live data from all those instances will show up in the hover information.
+
+TODO: Replace with an Eclipse-based screenshot.
+[[/images/screenshot-live-hovers.png|live data from running apps as hover on source code]]
+
+## Enabling Live Hover Support
+
+TODO: describe how to enable live hover support on local apps. 
+
+This includes:
+
+- what is required from the app/process: 
+  - actuator dependency
+  - app is running
+
+- support can be completely disabled in the editor via preferences.
+
+## Live Requestmappings
+
+TODO fill this in
+- the request mapping hovers + request mapping code lenses
+
+## Live Bean Information
+
+TODO fill this in:
+
+- the bean wiring information that is shown and how that is being shown
+- the bean wiring information that is shown as code lenses (with the limitation that this doesn't work in Eclipse and Atom yet)
+
+## Live Active Profiles Information
+
+TODO fill this in 
+
 # TODO: this page still needs to be filled with real content...
 
 Here are some notes about what should really go in this page:
 
 In this section we need to talk about:
-- the hovers in general
-- the bean wiring information that is shown and how that is being shown
-- the bean wiring information that is shown as code lenses (with the limitation that this doesn't work in Eclipse and Atom yet)
-- the request mapping hovers + request mapping code lenses
 
 Then a specific section for remote apps with:
 - how to configure remote apps for live information (boot dashboard, manual tunnel setup, manual ls configuration for remote apps)
