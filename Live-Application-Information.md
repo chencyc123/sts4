@@ -10,15 +10,26 @@ If there are multiple instances of the app running on your machine, the live dat
 
 ## Application Requirements
 
-TODO: describe how to enable live hover support on local apps. 
+Live information is scraped from running apps using JMX to connect to spring-boot-actuator endpoints. This means that actuator must be added as a dependency to your application and endable. The easiest way to accomplish this is to add the `spring-boot-actuator-starter` dependency to your application's `pom.xml` or `build.gradle`.
 
-This includes:
+For example in the `pom.xml`:
 
-- what is required from the app/process: 
-  - actuator dependency
-  - app is running
+```
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+```
 
-- support can be completely disabled in the editor via preferences.
+For example in the `build.gradle`:
+
+```
+dependencies {
+  ...
+	compile('org.springframework.boot:spring-boot-starter-actuator')
+  ...
+}
+```
 
 ## Live Information Details
 
