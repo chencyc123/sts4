@@ -1,11 +1,9 @@
-STS4 automatically detects JVM processes for running boot applications on your local machine and
-scrapes them for 'live' runtime information about beans, requestmappings amongst other things.
+STS4 automatically detects JVM processes for running boot applications on your local machine.
 
 When a running app is detected, STS 4 automatically shows hints in the source code where data from the running app can be inspected. Then hovering over that area (with the mouse pointer), the data from the running app shows up.
 
 If there are multiple instances of the app running on your machine, the live data from all those instances will show up in the hover information.
 
-TODO: Replace with an Eclipse-based screenshot.
 [[/images/screenshot-live-hovers.png|live data from running apps as hover on source code]]
 
 ## Application Requirements
