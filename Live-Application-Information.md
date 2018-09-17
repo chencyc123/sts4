@@ -8,7 +8,7 @@ If there are multiple instances of the app running on your machine, the live dat
 TODO: Replace with an Eclipse-based screenshot.
 [[/images/screenshot-live-hovers.png|live data from running apps as hover on source code]]
 
-## Enabling Live Hover Support
+## Application Requirements
 
 TODO: describe how to enable live hover support on local apps. 
 
@@ -32,40 +32,29 @@ TODO fill this in:
 - the bean wiring information that is shown and how that is being shown
 - the bean wiring information that is shown as code lenses (with the limitation that this doesn't work in Eclipse and Atom yet)
 
+## Conditional Beans Information
+
+TODO fill this in
+* `@ContidionalOn...`: shows information about the conditions and their evaluation at runtime
+
 ## Live Active Profiles Information
 
 TODO fill this in 
 
+# Scraping Remote Applications for Live Information 
+
+TODO describe how to enable live hover for non-local app. 
+- automatic support via boot dash app deployed to CF
+- manual configuration and manual JMX tunneling.
+
 # TODO: this page still needs to be filled with real content...
 
-Here are some notes about what should really go in this page:
+## Completely Disabling this Feature
 
-In this section we need to talk about:
+Live information is periodically being scraped from running processes automatically. This could affect 
+your machine's performance. If you don't want this for whatever reason this feature can be completely 
+disabled: 
 
-Then a specific section for remote apps with:
-- how to configure remote apps for live information (boot dashboard, manual tunnel setup, manual ls configuration for remote apps)
-
-Need to mention what happens in the background (polling the apps), so users can disable this when it consumes too much resources on their machines)
-
-# Old content, to be reworked and/or deleted:
-
-## Live application information hovers
-Show information from running Spring Boot apps on your machine in the source code. This allows you to run the Spring Boot app locally on your machine and visualizes information from those running apps in your source code.
-
-### Visualization
-Once the tooling detects a running Spring Boot app on your local machine, it automatically shows hints in the source code where data from the running app can be inspected. Then hovering over that area (with the mouse pointer), the data from the running app shows up.
-
-If there are multiple instances of the app running on your machine, the live data from all those instances will show up in the hover information.
-
-[[/images/screenshot-live-hovers.png|live data from running apps as hover on source code]]
-
-### Examples
-* `@Profile`: shows information about the active profiles on the running apps
-* `@Component`, `@Bean`, `@Autowired`: shows detailed information about the beans and their wiring from the live app
-* `@ContidionalOn...`: shows information about the conditions and their evaluation at runtime
-
-### Configuration
-You can enable/disable this feature:
 * Eclipse/Spring Tool Suite 4: via the preferences `Spring -> Spring Boot Language Server`
 * Code: regular JSON preference mechanism using the key: `boot-java.boot-hints.on`.
 * Atom: regular preference mechanism
