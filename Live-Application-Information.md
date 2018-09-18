@@ -69,7 +69,11 @@ Additionally, the names of the profiles inside the annotation parameters will be
 
 ## Remote Applications
 
-TLDR; If an app is deployed to cloudfoundry using the STS 4 Eclipse Spring Boot Dashboard, JMX can be enabled when that app is depployed. Live hovers will work automaticlly for that remotely deployed application, for the workspace from which it was deployed.
+TLDR; If an app is deployed to cloudfoundry using the STS 4 Eclipse Spring Boot Dashboard, there is an option to enable JMX at the bottom of the deployment dialog:
+
+[[/images/screenshot-enable-jmx-deployment-option|Enable JMX Deployment Option]]
+
+Once the app is depployed. Live hovers will work automaticlly for that remotely deployed application.
 
 ### Details
 
@@ -86,8 +90,6 @@ There are two ways to satisfy these additional requirements. An easy automatic w
 ### Automatic: App Deployed from Boot Dashboard
 
 When deploying an app to Cloudfoundry there is an option near the bottom of the Deployment Dialog where you can enable JMX.
-
-[[/images/screenshot-enable-jmx-deployment-option|Enable JMX Deployment Option]]
 
 This makes live hover information work for the remote application.
 
