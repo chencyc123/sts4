@@ -2,7 +2,7 @@
 
 Easy navigation to Spring-specific elements of your source code.
 
-[[/images/symbols--nav-eclipse.png|Go to Symbol in Workspace]]
+[[/images/symbols-nav-eclipse.png|Go to Symbol in Workspace]]
 
 ## Shortcuts
 * Eclipse: Cmd-6 (symbols in file), Cmd-6 again (symbols in workspace)
@@ -61,5 +61,5 @@ TODO: content for functional bean definitions?
 * `@` shows all Spring annotations in the code
 * `//` shows all request mappings of all running Spring Boot apps and opens a browser for the selected endpoint
 
-[[/images/live-rm-symbol-nav.png|Live Request Mapping symbols]]
+[[/images/live-rm-symbol-nav-eclipse.png|Live Request Mapping symbols]]
 
