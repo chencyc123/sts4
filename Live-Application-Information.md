@@ -154,7 +154,7 @@ For *Eclipse*, paste this snippet into *Preferences >> Language Servers >> Sprin
 
 For *Vscode*, enter it as the value for the configuration key `boot-java.remote-apps` (in either user or workspace settings).
 
-For *Atom*, TODO alex?
+For *Atom*, enter it as the value in Atom's `Config` JSON for property `"remote-apps"` inside the object value of `"boot-java"` property
 
 ## Completely Disabling this Feature
 
