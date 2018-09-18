@@ -77,7 +77,7 @@ Once the app is depployed. Live hovers will work automaticlly for that remotely 
 
 ### Details
 
-Live information is scraped from actuator-enabled apps using JMX. For local apps a JMX connection can be estblished automatically and doesn't require any special actions to enable JMX. 
+Live information is scraped from actuator-enabled apps using JMX. For local apps a JMX connection can be established automatically and doesn't require any special actions to enable JMX. 
 
 However, for remote apps the tools cannot automatically discover the process nor enable JMX support on the remote JVM. So besides needing to have actuator enabled (this is the same as for local apps) there are some additional requirements for remote apps:
 
@@ -97,7 +97,7 @@ What happens under the hood:
 
 - JMX is enabled on the deployed application by setting additional system properties via the `JAVA_OPTS` environment variable.
 - When the app has fully started a local SSH tunnel is created, proxying the JMX service on a local port.
-- The editor is configured to check that local port for live hover information.
+- The editor is configured with a JMX url pointing to that local port.
 
 This makes live hover information work for the remote application.
 
@@ -130,7 +130,7 @@ $ cf ssh my-app-name -L 33333:localhost:33333
 
 This will create an SSH session and open a bash prompt connected to the remote app. As long as this session is left open, JMX for that app can now be accessed on the local port (33333 in the example).
 
-Note: Due to some implementation details of JMX, you *must* use matching local and remote port numbers (both are 33333 in the example). If you attempt to change the local port without also changing the remote port to the same number, then it will not be possible to establish a JMX connection over the resulting SSH tunnel.
+Note: Due to some JMX implementation details, you *must* use the same local and remote port numbers (both are 33333 in the example). If you attempt to change the local port without also changing the remote port to the same number, then it will not be possible to establish a JMX connection over the resulting SSH tunnel.
 
 You can verify your tunnel is setup correctly by attempting to connect to the remote JVM with `jconsole` using this command `jconsole localhost:33333`.
 
