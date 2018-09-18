@@ -78,11 +78,11 @@ Live information is scraped from actuator-enabled apps using JMX. For local apps
 
 However, for remote apps the tools cannot automatically discover the process nor enable JMX support on the remote JVM. So besides needing to have actuator enabled (this is the same as for local apps) there are some additional requirements for remote apps:
 
-- JMX must be explicitly enabled on the remote JVM when it is launched; by setting certain system properties. 
-- The host and port on which the remote JMX service is running must be made accessible from the local machine somehow.
+- JMX must be explicitly enabled on the remote JVM when it is launched. This is done by setting certain system properties. 
+- The remote host and port on which the remote JMX service is running must be made accessible from the local machine somehow.
 - The Editor must be explicitly configured to know where to find the remote JMX service.
 
-There are two ways to satisfy these additional requirements. An easy automatic way (this only works for apps deployed directly from the workspace to cloudfoundry); and a more involve manual way.
+There are two ways to satisfy these additional requirements. An easy automatic way (this only works for apps deployed directly from the workspace to cloudfoundry); and a more involved, manual way.
 
 ### Automatic: App Deployed from Boot Dashboard
 
@@ -90,7 +90,9 @@ When deploying an app to Cloudfoundry there is an option near the bottom of the 
 
 [[/images/screenshot-enable-jmx-deployment-option|Enable JMX Deployment Option]]
 
-When that option is enabled:
+This makes live hover information work for the remote application.
+
+What happens under the hood:
 
 - JMX is enabled on the deployed application by setting additional system properties via the `JAVA_OPTS` environment variable.
 - When the app has fully started a local SSH tunnel is created, proxying the JMX service on a local port.
@@ -100,7 +102,7 @@ This makes live hover information work for the remote application.
 
 ### Manual
 
-You can also perform the above three steps manuall. This may, for example, be necessary if you don't deploy your application diretly from the workspace but use CI/CD pipeline for deployment. Here we explain the process for an app deployed to Cloudfoundry, but in principle this process can be adapted to any actuator-enabled spring-boot app, running anywhere.
+You can also set this up manually. This may, for example, be necessary if you don't deploy your application directly from the workspace but use a CI/CD pipeline for deployment. Here we explain the process for an app deployed to Cloudfoundry, but in principle this process can also be adapted to any actuator-enabled spring-boot app, running anywhere.
 
 **Step 1:** Enabling JMX.
 
@@ -125,7 +127,11 @@ You can use the CF CLI to create a tunnel to the deployed app. For example:
 $ cf ssh my-app-name -L 33333:localhost:33333
 ```
 
-This will create an SSH session and open a bash prompt connected to the remote app. As long as this session is left open JMX for that app can now be accessed on the local port (33333 in the example). You can verify that this worked correctly by attempting to connect to the remote with a tool like jconsole using command `jconsole localhost:33333`.
+This will create an SSH session and open a bash prompt connected to the remote app. As long as this session is left open, JMX for that app can now be accessed on the local port (33333 in the example).
+
+Note: Due to some implementation details of JMX, you *must* use matching local and remote port numbers (both are 33333 in the example). If you attempt to change the local port without also changing the remote port to the same number, then it will not be possible to establish a JMX connection over the resulting SSH tunnel.
+
+You can verify your tunnel is setup correctly by attempting to connect to the remote JVM with `jconsole` using this command `jconsole localhost:33333`.
 
 **Step 3: Configure the Editor
 
