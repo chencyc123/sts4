@@ -5,10 +5,9 @@ Describes the current support for Spring WebFlux in Spring Tools 4. Spring WebFl
 The level of tooling support for these programming models is different.
 
 ## Annotation based, Spring MVC-style
-The support for WebFlux backed annotation based request mappings is identical to regular Spring MVC annotation based request mappings as documented [here](/Live-Application-Information#live-request-mappings). This includes:
-- Symbol navigation
-- Live Request Mapping highlights, hovers and Code Lenses
-- Code snippet content assist proposals
+The support for WebFlux backed annotation based request mappings is identical to regular Spring MVC annotation based request mappings. This includes:
+- [[Symbol navigation|Navigation]
+- [[Live Request Mapping highlights, hovers and Code Lenses|Live-Application-Information#live-request-mappings)]]
 
 ## Functional, lambda style
 The support for WebFlux functional style request mapping definitions is limited to:
