@@ -22,6 +22,6 @@ The common pattern for defining functional style Request Mapping is having two c
 
 The Component hosting Request Mapping handlers is missing the data about request mapping path. The Code Lens makes that information available in the handlers class.
 
-[[/images/webflux-rm-codelens-eclipse.png|WebFlux Functional RequestMapping Code Lens]]
+[[/images/webflux-functional-rm-codelens-eclipse.png|WebFlux Functional RequestMapping Code Lens]]
 
  
