@@ -8,6 +8,7 @@
   - [Boot Properties Editor](Boot-Properties-Editor)
   - [Boot Dashboard](Boot-Dashboard)
   - [Cloudfoundry Editors](Cloudfoundry-Editors)
+  - [STS3 features in STS4](STS3-Features)
 * [FAQ](FAQ)
 * [Changelog](https://github.com/spring-projects/sts4/wiki/Changelog)
 * [Known Limitations](https://github.com/spring-projects/sts4/wiki/Known-Limitations)
