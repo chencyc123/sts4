@@ -16,7 +16,7 @@ The support for WebFlux functional style request mapping definitions is limited 
 - Request Mapping handler functions Code Lens
 
 ### Request Mapping Handler Functions Code Lens
-The common pattern for defining functional style Request Mapping is having two classes (See [Reactive REST Service getting started guide](https://spring.io/guides/gs/reactive-rest-service)):
+The common pattern for defining functional style Request Mapping is having two classes (See [Reactive REST Service getting started guide](https://spring.io/guides/gs/reactive-rest-service):
 - Router Functions Bean class
 - Request Mapping handler functions Component class
 
