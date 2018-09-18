@@ -4,6 +4,7 @@
   - [Navigation](Navigation)
   - [Live Application Information](Live-Application-Information)
   - [Content Assist](Content-Assist)
+  - [WebFlux Support](WebFlux-Support)
   - [Boot Properties Editor](Boot-Properties-Editor)
   - [Boot Dashboard](Boot-Dashboard)
   - [Cloudfoundry Editors](Cloudfoundry-Editors)
