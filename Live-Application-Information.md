@@ -1,6 +1,6 @@
 STS4 automatically detects JVM processes for running boot applications on your local machine.
 
-When a running app is detected, STS 4 automatically shows hints in the source code where data from the running app can be inspected. Then hovering over that area (with the mouse pointer), the data from the running app shows up.
+When a running app is detected, STS 4 automatically shows hints by highlighting sections of source code with a light green background. Hovering over the highlights with the mouse pointer, data from the running app is displayed in a popup.
 
 For some types of information, STS 4 may also show a 'quick summary' as a codelens. Codelenses are only supported in Eclipse and Vscode at the moment, not in atom. For Eclipse this has to be enabled via *Preferences >> Language Servers >> Spring Language Servers >> Spring Boot Language Server*.
 
@@ -14,8 +14,7 @@ Live information is scraped from running apps using JMX to connect to [Spring Bo
 
 ## Live Information Details
 
-This section provides an overview of the different types of live information that are currently
-supported and how each of them can be accessed from the editor.
+This section provides an overview of the different types of live information that are currently supported and how each of them can be accessed from the editor.
 
 ### Live Request Mappings
 Live Request Mappings information is displayed for a running Spring Boot application. Live Request Mappings data is fetched from the application process. The data is mapped onto the Request Mappings definitions in the source code. A typical Request Mapping definition is the `@ResquestMapping` annotation. Such spots in the source code are highlighted with the light green background.
