@@ -6,8 +6,8 @@ The level of tooling support for these programming models is different.
 
 ## Annotation based, Spring MVC-style
 The support for WebFlux backed annotation based request mappings is identical to regular Spring MVC annotation based request mappings. This includes:
-- [[Symbol navigation|Navigation]
-- [[Live Request Mapping highlights, hovers and Code Lenses|Live-Application-Information#live-request-mappings)]]
+- [[Symbol navigation|Navigation]]
+- [Live Request Mapping highlights](https://github.com/spring-projects/sts4/wiki/Live-Application-Information#live-request-mappings)
 
 ## Functional, lambda style
 The support for WebFlux functional style request mapping definitions is limited to:
