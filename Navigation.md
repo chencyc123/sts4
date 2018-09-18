@@ -2,7 +2,7 @@
 
 Easy navigation to Spring-specific elements of your source code.
 
-[[/images/workspace-symbols-eclipse.png|Go to Symbol in workspace]]
+[[/images/symbols--nav-eclipse.png|Go to Symbol in Workspace]]
 
 ## Shortcuts
 * Eclipse: Cmd-6 (symbols in file), Cmd-6 again (symbols in workspace)
@@ -15,7 +15,7 @@ The annotation synbol entry in the list consits of:
 - Annotation label (i.e. `@Autowired`, `@Qualifier` etc.)
 - Path to the resource containing the annotation symbol
 
-[[/images/annotation-symbol-eclipse.png|Annotation symbol from list of symbols]]
+[[/images/annotation-symbol-nav-eclipse.png|Annotation symbol from list of symbols]]
 
 Clicking on the annotation entry in the list navigates to the position in the source code resource where the annotation is located
 
@@ -27,14 +27,14 @@ A common bean entry defined with an annotation consists of:
 - Annotation label including annotation "Meta Inheritance Relationship", i.e. any Controller is a Component
 - Path to the resource containing the bean definition
 
-[[/images/bean-symbol-eclipse.png|Bean symbol from list of symbols]]
+[[/images/bean-symbol-nav-eclipse.png|Bean symbol from list of symbols]]
 
 There are bean definitions without annotations such as Spring Data Repository beans. These consist of:
 - Bean ID
 - Type of model objects stored by the repository and Java type of the repository
 - Path to the resource containing the bean definition
 
-[[/images/repo-bean-symbol-eclipse.png|Repository bean symbol from list of symbols]]
+[[/images/repo-bean-symbol-nav-eclipse.png|Repository bean symbol from list of symbols]]
 
 Clicking on the bean entry in the list navigates to the position in the source code resource where the bean is defined.
 
@@ -46,7 +46,7 @@ A common Request Mapping symbol entry consists of:
 - Type of the RequestMapping or content type or other auxiliary data if applicable
 - Path to the resource containing the bean definition
 
-[[/images/rm-symbol-eclipse.png|Request Mapping symbol from list of symbols]]
+[[/images/rm-symbol-nav-eclipse.png|Request Mapping symbol from list of symbols]]
 
 Clicking on the Request Mapping entry in the list navigates to the position in the source code resource where the Request Mapping is defined.
 
@@ -61,5 +61,5 @@ TODO: content for functional bean definitions?
 * `@` shows all Spring annotations in the code
 * `//` shows all request mappings of all running Spring Boot apps and opens a browser for the selected endpoint
 
-[[/images/screenshot-live-apps-quick-access.png|accessing running apps quickly]]
+[[/images/live-rm-symbol-nav.png|Live Request Mapping symbols]]
 
