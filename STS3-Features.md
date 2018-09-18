@@ -17,10 +17,10 @@ Some STS3 components are available in STS4 in their original form. These compone
 
 ## STS3 Components Absent but Available via STS4 Features
 
-####Request Mappings View
+#### Request Mappings View
 Open Symbol in Workspace features replaces it. Once the Open Symbol in Workspace dialog is opened type `@/` to see all Request Mappings in the workspace.
 
-####Live Beans Graph View
+#### Live Beans Graph View
 There is no graph for the Live Beans, but there is information about Live Beans available in a different form:
 - Live Bean data is available via Boot highlights, hovers and Code Lenses in the source code
 - List of Live beans data is shown in the Beans tab in the Properties View for a selected running Boot application
