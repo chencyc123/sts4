@@ -110,13 +110,14 @@ You can also set this up manually. This may, for example, be necessary if you do
 This can be accomplished by adding system properties via the `JAVA_OPTS` environment variable. For example you could add this to your cf `manifest.yml`:
 
 ```
-JAVA_OPTS: > 
-  -Dcom.sun.management.jmxremote.ssl=false
-  -Dcom.sun.management.jmxremote.authenticate=false 
-  -Dcom.sun.management.jmxremote.port=33333 
-  -Dcom.sun.management.jmxremote.rmi.port=33333 
-  -Djava.rmi.server.hostname=localhost 
-  -Dcom.sun.management.jmxremote.local.only=false
+env:
+  JAVA_OPTS: > 
+    -Dcom.sun.management.jmxremote.ssl=false
+    -Dcom.sun.management.jmxremote.authenticate=false 
+    -Dcom.sun.management.jmxremote.port=33333 
+    -Dcom.sun.management.jmxremote.rmi.port=33333 
+    -Djava.rmi.server.hostname=localhost 
+    -Dcom.sun.management.jmxremote.local.only=false
 
 ```
 
