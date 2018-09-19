@@ -146,7 +146,7 @@ You can verify your tunnel is setup correctly by attempting to connect to the re
 
 **Step 3**: Configure the Editor
 
-The final step differs slighty depending on the Editor you are using (Eclipse / Vscode / Atom). But each of the editors are configured by pasting an identical json snippet into a specific setting. The snippet should look something like the following:
+The final step differs slightly depending on the Editor you are using (Eclipse / Vscode / Atom). But each of the editors are configured by pasting an identical json snippet into a specific setting. The snippet should look something like the following:
 
 ```
 [
