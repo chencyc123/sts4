@@ -57,7 +57,7 @@ Clicking on the Request Mapping entry in the list navigates to the position in t
 * `@+` shows all defined beans (bean name, bean type, source location)
 * `@>` shows all functions (prototype implementation) (see the [[Spring Cloud Function|https://cloud.spring.io/spring-cloud-function/]] project)
 * `@` shows all Spring annotations in the code
-* `//` shows all request mappings of all running Spring Boot apps and opens a browser for the selected endpoint
+* `//` shows all request mappings of all running Spring Boot apps and opens a browser for the selected endpoint (this only works in the global 'go to symbol' view - after pressing Cmd-6 twice)
 
 [[/images/live-rm-symbol-nav-eclipse.png|Live Request Mapping symbols]]
 
