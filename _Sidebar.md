@@ -7,7 +7,7 @@
   - [WebFlux Support](WebFlux-Support)
   - [Boot Properties Editor](Boot-Properties-Editor)
   - [Boot Dashboard](Boot-Dashboard)
-  - [Cloudfoundry Editors](Cloudfoundry-Editors)
+  - [Other Editors](Other-Editors)
   - [STS3 features in STS4](STS3-Features)
 * [FAQ](FAQ)
 * [Changelog](https://github.com/spring-projects/sts4/wiki/Changelog)
