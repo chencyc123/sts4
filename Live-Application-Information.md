@@ -57,8 +57,17 @@ Code Lens is displayed on a dedicated line right above the green highlight in th
 
 ### Conditional Beans Information
 
-TODO fill this in
-* `@ContidionalOn...`: shows information about the conditions and their evaluation at runtime
+Live conditional information is shown for running Spring Boot applications, if the conditions are matched at runtime. As with other live information, the `@ConditionalOn...` is highlighted in green when that conditional information is available.
+
+[[/images/live-conditional-eclipse.png|Live Conditional highlight for a running app in Eclipse]]
+
+Hovering over the highlighted conditional will display:
+
+- Conditional matching information
+- Process information from where the Live Conditional information was fetched
+
+[[/images/live-conditional-eclipse-hover.png|Live Conditional hover for a running app in Eclipse]]
+
 
 ### Live Active Profiles Information
 
