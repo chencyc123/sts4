@@ -52,14 +52,10 @@ A common Request Mapping symbol entry consists of:
 
 Clicking on the Request Mapping entry in the list navigates to the position in the source code resource where the Request Mapping is defined.
 
-## Functions (experimental)
-
-* `@>` shows the functional beans (see the [[Spring Cloud Function|https://cloud.spring.io/spring-cloud-function/]] project)
-
 ## Examples
 * `@/` shows all defined request mappings (mapped path, request method, source location)
 * `@+` shows all defined beans (bean name, bean type, source location)
-* `@>` shows all functions (prototype implementation)
+* `@>` shows all functions (prototype implementation) (see the [[Spring Cloud Function|https://cloud.spring.io/spring-cloud-function/]] project)
 * `@` shows all Spring annotations in the code
 * `//` shows all request mappings of all running Spring Boot apps and opens a browser for the selected endpoint
 
