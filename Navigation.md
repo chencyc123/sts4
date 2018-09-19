@@ -9,6 +9,8 @@ Easy navigation to Spring-specific elements of your source code.
 * Code: Cmd-Shift-O (symbols in file), Cmd-T (symbols in workspace)
 * Atom: not available yet (symbols in file show up in outline view)
 
+Use Ctrl on windows/linux in place of Cmd key.
+
 ## Annotations
 All Spring annotations from the source code in the workspace are in the list of symbols. They are prefixed with `@` as the other Spring symbols. It is best to type a specific annotation such as `@Autowired` in the search box to narrow down the list of symbols to specific type of annotation being searched for.
 The annotation synbol entry in the list consits of:
@@ -50,9 +52,9 @@ A common Request Mapping symbol entry consists of:
 
 Clicking on the Request Mapping entry in the list navigates to the position in the source code resource where the Request Mapping is defined.
 
-## Functions
+## Functions (experimental)
 
-TODO: content for functional bean definitions?
+* `@>` shows the functional beans (see the [[Spring Cloud Function|https://cloud.spring.io/spring-cloud-function/]] project)
 
 ## Examples
 * `@/` shows all defined request mappings (mapped path, request method, source location)
