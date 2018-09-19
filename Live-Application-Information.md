@@ -175,4 +175,4 @@ A background thread is used to periodically scrape running processes for live in
 * *Vscode*: `Open User Settings` command and search for: `boot-java.boot-hints.on`.
 [[/images/disable-live-hints-vscode.png|Disable/Enable Live Hints Eclipse]]
 
-* *Atom*: regular preference mechanism
+* *Atom*: `boot-hints` under `boot-java` in Atom's Config JSON.
