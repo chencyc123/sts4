@@ -5,7 +5,7 @@ STS3 Eclipse components can be installed into STS4 Eclipse using the following:
 - STS3 Eclipse Market Place entry
 - STS3 Update Site
 
-## STS3 Components Present in STS4
+## STS3 Components present in STS4
 Some STS3 components are available in STS4 in their original form. These components are:
 - Boot Dashboard
 - Snippet Completion Proposals for Request Mappings
@@ -15,7 +15,7 @@ Some STS3 components are available in STS4 in their original form. These compone
 - Import Getting Started Content wizard
 - Quick Search
 
-## STS3 Components Absent but Available via STS4 Features
+## STS3 Components absent but available via STS4 Features
 
 #### Request Mappings View
 Open Symbol in Workspace features replaces it. Once the Open Symbol in Workspace dialog is opened type `@/` to see all Request Mappings in the workspace.
