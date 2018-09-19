@@ -62,7 +62,7 @@ TODO fill this in
 
 ### Live Active Profiles Information
 
-Hovering over a `@Profile` will show wich profiles are currently active in running boot applications. 
+Hovering over a `@Profile` will show which profiles are currently active in running boot applications. 
 Additionally, the names of the profiles inside the annotation parameters will be highlighted, dependending on whether that specific profile is active.
 
 [[/images/screenshot-live-hover-profiles.png|Profile Live Hover]]
