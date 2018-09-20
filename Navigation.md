@@ -5,7 +5,7 @@ Easy navigation to Spring-specific elements of your source code.
 [[/images/symbols-nav-eclipse.png|Go to Symbol in Workspace]]
 
 ## Shortcuts
-* Eclipse: Cmd-6 (symbols in file), Cmd-6 again (symbols in workspace)
+* Eclipse: Cmd-6 (symbols in workspace), Cmd-6 again (symbols in file)
 * Code: Cmd-Shift-O (symbols in file), Cmd-T (symbols in workspace)
 * Atom: not available yet (symbols in file show up in outline view)
 
