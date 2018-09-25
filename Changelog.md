@@ -1,3 +1,11 @@
+## 2018-09-25 (4.0.0 RELEASE)
+
+* _(Spring Boot)_ `Cmd-6` in Eclipse shows `Go To Symbols in Workspace` first, second `Cmd-6` switches to `Go To Symbols in File`
+* _(Spring Boot)_ various bug fixes
+* _(Eclipse)_ allow Spring Tools 4 for Eclipse to run on JDK11
+* _(Eclipse)_ action added to convert application property files to YAML format
+* _(Eclipse)_ preference pages consolidated
+
 ## 2018-08-30 (M15)
 
 * _(Spring Boot)_ improved the overall content of bean wiring live hovers
