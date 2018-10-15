@@ -26,7 +26,7 @@ There is no graph for the Live Beans, but there is information about Live Beans 
 
 Since Spring Tools 4 is re-implemented from scratch, the tooling had a sharp focus for the initial release. Spring Tools 4 focus on supporting Spring developers using Spring Boot and annotation-style Spring programming. Therefore, the following features of STS3 ARE NOT supported in Spring Tools 4 anymore:
 
-- Spring XML config support (including auto-completion for bean IDs, bean classes, etc.)#
+- Spring XML config support (including auto-completion for bean IDs, bean classes, etc.)
 - Spring XML config validations
 
 ## Combining STS3 and STS4
