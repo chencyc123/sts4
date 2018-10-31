@@ -1,3 +1,14 @@
+## 2018-10-31 (4.0.1 RELEASE)
+
+* _(Spring Boot)_ fixed NPE from SpringIndexer ([#105](https://github.com/spring-projects/sts4/issues/105))
+* _(Spring Boot)_ filed: Spring Boot configuration property auto-completion does not offer properties on super classes ([#116](https://github.com/spring-projects/sts4/issues/116))
+* _(Spring Boot)_ fixed: Lots of NPE noise in language server ([#90](https://github.com/spring-projects/sts4/issues/90))
+* _(Spring Boot)_ fixed: Live Boot Hint Decorators not working when app ObjectMapper configured with NON_DEFAULT inclusion  ([#80](https://github.com/spring-projects/sts4/issues/80))
+* _(Spring Boot)_ fixed: property support now understand nested project structure
+* _(Eclipse)_ added support for Buildship 3.0
+* _(Eclipse)_ distribution includes server adapters for Apache Tomcat again
+* _(Concourse)_ added support for new attributes for S3 resource
+
 ## 2018-09-25 (4.0.0 RELEASE)
 
 * _(Spring Boot)_ `Cmd-6` in Eclipse shows `Go To Symbols in Workspace` first, second `Cmd-6` switches to `Go To Symbols in File`
