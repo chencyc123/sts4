@@ -19,3 +19,6 @@
   * make sure you run on a JDK, not a JRE (see above)
   * there are some network configuration cases that prevent the language server from connecting to the running Spring Boot application via JMX. In that case, add `-Djava.rmi.server.hostname=localhost` to the VM arguments when starting up your Spring Boot app.
   * On Windows... it is fairly common for the folder at `%TMP%\hsperf-%USERNAM%` to get wrong permissions, especially if you recently installed / reinstalled or updated your JDK. To fix this, simply delete the folder and restart your Boot app and STS 4 (Eclipse, VSCode or Atom). The next java process you start should recreate the folder with correct permissions.
+
+* Navigation inside of live hovers broken in Atom
+  * the navigation to bean definitions and types from within live hovers shows up, but doesn't work when clicking on the links, this is a known bug and we are working on it
